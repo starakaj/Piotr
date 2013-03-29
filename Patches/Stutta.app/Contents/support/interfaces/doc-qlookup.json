@@ -1,0 +1,4685 @@
+{
+  "refpages": {
+    "jit-ref": {
+      "jit.submatrix.maxref.xml": {
+        "name": "jit.submatrix",
+        "digest": "Reference a sub-region of a matrix"
+      },
+      "jit.quat.maxref.xml": {
+        "name": "jit.quat",
+        "digest": "Quaternion multiplication"
+      },
+      "jit.phys.point2point.maxref.xml": {
+        "name": "jit.phys.point2point",
+        "digest": "A point to point constraint in a physics world"
+      },
+      "jit.phys.conetwist.maxref.xml": {
+        "name": "jit.phys.conetwist",
+        "digest": "A conetwist constraint in a physics world"
+      },
+      "jit.phys.barslide.maxref.xml": {
+        "name": "jit.phys.barslide",
+        "digest": "A bar constraint in a physics world"
+      },
+      "jit.noise.maxref.xml": {
+        "name": "jit.noise",
+        "digest": "Generate white noise"
+      },
+      "jit.gl.text3d.maxref.xml": {
+        "name": "jit.gl.text3d",
+        "digest": "Render vector text"
+      },
+      "jit.pwindow.maxref.xml": {
+        "name": "jit.pwindow",
+        "digest": "Show data in a patcher"
+      },
+      "jit.matrixset.maxref.xml": {
+        "name": "jit.matrixset",
+        "digest": "A set of matrices for storage/resequencing"
+      },
+      "jit.gl.nurbs.maxref.xml": {
+        "name": "jit.gl.nurbs",
+        "digest": "Generate NURBS surface"
+      },
+      "jit.gl.skybox.maxref.xml": {
+        "name": "jit.gl.skybox",
+        "digest": "Render a skybox in OpenGL"
+      },
+      "jit.dx.grab.maxref.xml": {
+        "name": "jit.dx.grab",
+        "digest": "Digitize video using DirectX (Windows)"
+      },
+      "jit.demultiplex.maxref.xml": {
+        "name": "jit.demultiplex",
+        "digest": "Demultiplex (deinterleave) one matrix into two"
+      },
+      "jit.catch~.maxref.xml": {
+        "name": "jit.catch~",
+        "digest": "Transform signal data into matrices"
+      },
+      "jit.uyvy2argb.maxref.xml": {
+        "name": "jit.uyvy2argb",
+        "digest": "Converts UYVY to ARGB"
+      },
+      "jit.gl.render.maxref.xml": {
+        "name": "jit.gl.render",
+        "digest": "Render Jitter OpenGL objects"
+      },
+      "jit.histogram.maxref.xml": {
+        "name": "jit.histogram",
+        "digest": "Calculate matrix histogram"
+      },
+      "jit.sobel.maxref.xml": {
+        "name": "jit.sobel",
+        "digest": "Sobel and Prewitt gradient edge detector"
+      },
+      "jit.mxform2d.maxref.xml": {
+        "name": "jit.mxform2d",
+        "digest": "Spatial transform using 3x3 matrix"
+      },
+      "jit.group-gl.maxref.xml": {
+        "name": "Jitter GL Object (OB3D) Messages",
+        "digest": "Messages and attributes common to the GL group"
+      },
+      "jit.gl.asyncread.maxref.xml": {
+        "name": "jit.gl.asyncread",
+        "digest": "Read back from an OpenGL framebuffer"
+      },
+      "jit.graph.maxref.xml": {
+        "name": "jit.graph",
+        "digest": "Perform floating-point data visualization"
+      },
+      "jit.argb2uyvy.maxref.xml": {
+        "name": "jit.argb2uyvy",
+        "digest": "Convert ARGB to UYVY"
+      },
+      "jit.gl.texture.maxref.xml": {
+        "name": "jit.gl.texture",
+        "digest": "Create OpenGL textures"
+      },
+      "jit.wake.maxref.xml": {
+        "name": "jit.wake",
+        "digest": "Feedback with convolution stage"
+      },
+      "jit.uldl.maxref.xml": {
+        "name": "jit.uldl",
+        "digest": "Internet upload/download"
+      },
+      "jit.sprinkle.maxref.xml": {
+        "name": "jit.sprinkle",
+        "digest": "Introduce spatial noise"
+      },
+      "jit.rota.maxref.xml": {
+        "name": "jit.rota",
+        "digest": "Scale/rotate in 2D"
+      },
+      "jit.keyscreen.maxref.xml": {
+        "name": "jit.keyscreen",
+        "digest": "Choke chromakey from 3 sources"
+      },
+      "jit.gl.sketch.maxref.xml": {
+        "name": "jit.gl.sketch",
+        "digest": "Use drawing commands with OpenGL"
+      },
+      "jit.chromakey.maxref.xml": {
+        "name": "jit.chromakey",
+        "digest": "Key images based on chromatic distance"
+      },
+      "jit.spill.maxref.xml": {
+        "name": "jit.spill",
+        "digest": "Unroll a matrix into a list"
+      },
+      "jit.gl.plato.maxref.xml": {
+        "name": "jit.gl.plato",
+        "digest": "Generate platonic solids"
+      },
+      "jit.fill.maxref.xml": {
+        "name": "jit.fill",
+        "digest": "Fill a matrix with a list"
+      },
+      "jit.bfg.maxref.xml": {
+        "name": "jit.bfg",
+        "digest": "Evaluate a procedural basis function graph"
+      },
+      "jit.cycle.maxref.xml": {
+        "name": "jit.cycle",
+        "digest": "Cycle messages through outputs"
+      },
+      "jit.fpsgui.maxref.xml": {
+        "name": "jit.fpsgui",
+        "digest": "Display fps, ms, and matrix attributes"
+      },
+      "jit.str.tosymbol.maxref.xml": {
+        "name": "jit.str.tosymbol",
+        "digest": "Convert Jitter string matrix to Max symbol"
+      },
+      "jit.proxy.maxref.xml": {
+        "name": "jit.proxy",
+        "digest": "Proxy a Jitter object."
+      },
+      "jit.pix.maxref.xml": {
+        "name": "jit.pix",
+        "digest": "Generates Jitter mop pixel processing objects from a patcher."
+      },
+      "jit.3m.maxref.xml": {
+        "name": "jit.3m",
+        "digest": "Report min/mean/max values"
+      },
+      "jit.argb2ayuv.maxref.xml": {
+        "name": "jit.argb2ayuv",
+        "digest": "Convert ARGB to AYUV"
+      },
+      "jit.scanoffset.maxref.xml": {
+        "name": "jit.scanoffset",
+        "digest": "Uses a 1-dimensional matrix to offset scanlines"
+      },
+      "jit.rgb2luma.maxref.xml": {
+        "name": "jit.rgb2luma",
+        "digest": "Converts RGB to monochrome (luminance)"
+      },
+      "jit.qt.record.maxref.xml": {
+        "name": "jit.qt.record",
+        "digest": "Record a QuickTime movie"
+      },
+      "jit.gl.picker.maxref.xml": {
+        "name": "jit.gl.picker",
+        "digest": "Mouse picking in an opengl context"
+      },
+      "jit.uyvy2ayuv.maxref.xml": {
+        "name": "jit.uyvy2ayuv",
+        "digest": "Converts UYVY to AYUV"
+      },
+      "jit.textfile.maxref.xml": {
+        "name": "jit.textfile",
+        "digest": "Read and write a matrix as an ASCII text file"
+      },
+      "jit.scissors.maxref.xml": {
+        "name": "jit.scissors",
+        "digest": "Cut up a matrix into evenly spaced sub matrices"
+      },
+      "jit.phys.world.maxref.xml": {
+        "name": "jit.phys.world",
+        "digest": "Collision detection and rigid body dynamics"
+      },
+      "jit.phys.multiple.maxref.xml": {
+        "name": "jit.phys.multiple",
+        "digest": "Uses matrices to simulate multiple rigid bodies"
+      },
+      "jit.fluoride.maxref.xml": {
+        "name": "jit.fluoride",
+        "digest": "Add a neon glow"
+      },
+      "jit.gl.light.maxref.xml": {
+        "name": "jit.gl.light",
+        "digest": "Place a light source in a 3D scene"
+      },
+      "jit.broadcast.maxref.xml": {
+        "name": "jit.broadcast",
+        "digest": "Broadcast video using RTSP"
+      },
+      "jit.lcd.maxref.xml": {
+        "name": "jit.lcd",
+        "digest": "QuickDraw wrapper"
+      },
+      "jit.desktop.maxref.xml": {
+        "name": "jit.desktop",
+        "digest": "Copy the display into a matrix"
+      },
+      "jit.luma2uyvy.maxref.xml": {
+        "name": "jit.luma2uyvy",
+        "digest": "Converts monochrome (luminance) to UYVY"
+      },
+      "jit.turtle.maxref.xml": {
+        "name": "jit.turtle",
+        "digest": "2-d turtle graphics interpreter"
+      },
+      "jit.luma2ayuv.maxref.xml": {
+        "name": "jit.luma2ayuv",
+        "digest": "Converts monochrome (luminance) to AYUV"
+      },
+      "jit.fastblur.maxref.xml": {
+        "name": "jit.fastblur",
+        "digest": "Blur/sharpen using optimized algorithm"
+      },
+      "jit.scalebias.maxref.xml": {
+        "name": "jit.scalebias",
+        "digest": "Multiply and add"
+      },
+      "jit.release~.maxref.xml": {
+        "name": "jit.release~",
+        "digest": "Transforms matrix data into signals"
+      },
+      "jit.phys.picker.maxref.xml": {
+        "name": "jit.phys.picker",
+        "digest": "Constraint picking in a physics world"
+      },
+      "jit.path.maxref.xml": {
+        "name": "jit.path",
+        "digest": "Evaluates a series of N-dim points as a path"
+      },
+      "jit.altern.maxref.xml": {
+        "name": "jit.altern",
+        "digest": "Color screen with threshold"
+      },
+      "jit.fft.maxref.xml": {
+        "name": "jit.fft",
+        "digest": "Perform a matrix-based FFT"
+      },
+      "jit.dimmap.maxref.xml": {
+        "name": "jit.dimmap",
+        "digest": "Remap and/or invert matrix dimensions"
+      },
+      "jit.euler2quat.maxref.xml": {
+        "name": "jit.euler2quat",
+        "digest": "Convert Euler angles to quaternion"
+      },
+      "jit.axis2quat.maxref.xml": {
+        "name": "jit.axis2quat",
+        "digest": "Convert angle-axis to quaternion"
+      },
+      "jit.traffic.maxref.xml": {
+        "name": "jit.traffic",
+        "digest": "Multiply the planar vector by a matrix"
+      },
+      "jit.split.maxref.xml": {
+        "name": "jit.split",
+        "digest": "Split a matrix into two matrices"
+      },
+      "jit.resamp.maxref.xml": {
+        "name": "jit.resamp",
+        "digest": "Resample spatially"
+      },
+      "jit.qt.videoout.maxref.xml": {
+        "name": "jit.qt.videoout",
+        "digest": "Output video to QuickTime video output component"
+      },
+      "jit.phys.ghost.maxref.xml": {
+        "name": "jit.phys.ghost",
+        "digest": "A collision sensor and forcefield"
+      },
+      "jit.gl.lua.maxref.xml": {
+        "name": "jit.gl.lua",
+        "digest": "Script OpenGL and Jitter with Lua."
+      },
+      "jit.concat.maxref.xml": {
+        "name": "jit.concat",
+        "digest": "Concatenate two matrices"
+      },
+      "jit.hue.maxref.xml": {
+        "name": "jit.hue",
+        "digest": "Rotate hue"
+      },
+      "jit.gl.volume.maxref.xml": {
+        "name": "jit.gl.volume",
+        "digest": "Create a volume visualization"
+      },
+      "jit.str.fromsymbol.maxref.xml": {
+        "name": "jit.str.fromsymbol",
+        "digest": "Convert Max symbol to Jitter string matrix"
+      },
+      "jit.roy.maxref.xml": {
+        "name": "jit.roy",
+        "digest": "Convert image to halftone image"
+      },
+      "jit.poke~.maxref.xml": {
+        "name": "jit.poke~",
+        "digest": "Write an audio signal into a matrix"
+      },
+      "jit.obref.maxref.xml": {
+        "name": "jit.obref",
+        "digest": "Launch html object reference"
+      },
+      "jit.findbounds.maxref.xml": {
+        "name": "jit.findbounds",
+        "digest": "Locate bounding dimensions for a value range"
+      },
+      "jit.gen.maxref.xml": {
+        "name": "jit.gen",
+        "digest": "Generate new Jitter MOP objects"
+      },
+      "jit.gl.path.maxref.xml": {
+        "name": "jit.gl.path",
+        "digest": "Generate and render a path in OpenGL"
+      },
+      "jit.xfade.maxref.xml": {
+        "name": "jit.xfade",
+        "digest": "Crossfade between 2 matrices"
+      },
+      "jit.scope.maxref.xml": {
+        "name": "jit.scope",
+        "digest": "Visual matrix analysis tools"
+      },
+      "jit.qt.broadcast.maxref.xml": {
+        "name": "jit.qt.broadcast",
+        "digest": "Broadcast video using RTSP (Macintosh only)"
+      },
+      "jit.planeop.maxref.xml": {
+        "name": "jit.planeop",
+        "digest": "Operator across planes"
+      },
+      "jit.buffer~.maxref.xml": {
+        "name": "jit.buffer~",
+        "digest": "Access an MSP buffer~ in matrix form"
+      },
+      "jit.la.determinant.maxref.xml": {
+        "name": "jit.la.determinant",
+        "digest": "Calculate the determinant of a matrix"
+      },
+      "jit.grab.maxref.xml": {
+        "name": "jit.grab",
+        "digest": "Digitize video from an external source"
+      },
+      "jit.anim.node.maxref.xml": {
+        "name": "jit.anim.node",
+        "digest": "Perform hierarchical transformation"
+      },
+      "jit.lumakey.maxref.xml": {
+        "name": "jit.lumakey",
+        "digest": "Key based on distance from a luminance value"
+      },
+      "jit.unpack.maxref.xml": {
+        "name": "jit.unpack",
+        "digest": "Make multiple single plane matrices out of a multiplane matrix"
+      },
+      "jit.repos.maxref.xml": {
+        "name": "jit.repos",
+        "digest": "Reposition spatially"
+      },
+      "jit.qt.movie.maxref.xml": {
+        "name": "jit.qt.movie",
+        "digest": "Play or edit a QuickTime movie"
+      },
+      "jit.qt.grab.maxref.xml": {
+        "name": "jit.qt.grab",
+        "digest": "Digitize video from an external source"
+      },
+      "jit.peek~.maxref.xml": {
+        "name": "jit.peek~",
+        "digest": "Read matrix data as an audio signal"
+      },
+      "jit.anim.drive.maxref.xml": {
+        "name": "jit.anim.drive",
+        "digest": "Animate a 3D transform"
+      },
+      "jit.dimop.maxref.xml": {
+        "name": "jit.dimop",
+        "digest": "Downsample using operators across dimensions"
+      },
+      "jit.str.op.maxref.xml": {
+        "name": "jit.str.op",
+        "digest": "Apply common string operations"
+      },
+      "jit.scanwrap.maxref.xml": {
+        "name": "jit.scanwrap",
+        "digest": "Resample by scanline wrapping"
+      },
+      "jit.iter.maxref.xml": {
+        "name": "jit.iter",
+        "digest": "Iterate a matrix as lists or values"
+      },
+      "jit.la.trace.maxref.xml": {
+        "name": "jit.la.trace",
+        "digest": "Calculate the sum across the main diagonal"
+      },
+      "jit.uyvy2luma.maxref.xml": {
+        "name": "jit.uyvy2luma",
+        "digest": "Converts UYVY to monochrome (luminance)"
+      },
+      "jit.qt.effect.maxref.xml": {
+        "name": "jit.qt.effect",
+        "digest": "QuickTime Effects for Jitter matrices"
+      },
+      "jit.mgraphics.maxref.xml": {
+        "name": "jit.mgraphics",
+        "digest": "2D Vector Graphics"
+      },
+      "jit.gl.imageunit.maxref.xml": {
+        "name": "jit.gl.imageunit",
+        "digest": "Use Apple Image Units"
+      },
+      "jit.gl.mesh.maxref.xml": {
+        "name": "jit.gl.mesh",
+        "digest": "Generate GL geometry from matrices"
+      },
+      "jit.gl.node.maxref.xml": {
+        "name": "jit.gl.node",
+        "digest": "Create hierarchical rendering groups"
+      },
+      "jit.coerce.maxref.xml": {
+        "name": "jit.coerce",
+        "digest": "Coerce a matrix into different types/planecount"
+      },
+      "jit.la.uppertri.maxref.xml": {
+        "name": "jit.la.uppertri",
+        "digest": "Convert a matrix into an upper triangular matrix"
+      },
+      "jit.convolve.maxref.xml": {
+        "name": "jit.convolve",
+        "digest": "Convolve two matrices"
+      },
+      "jit.gl.graph.maxref.xml": {
+        "name": "jit.gl.graph",
+        "digest": "Graph floats into 3D space"
+      },
+      "jit.vcr.maxref.xml": {
+        "name": "jit.vcr",
+        "digest": "Record a QuickTime movie with MSP audio"
+      },
+      "jit.slide.maxref.xml": {
+        "name": "jit.slide",
+        "digest": "Cellwise temporal envelope follower"
+      },
+      "jit.openexr.maxref.xml": {
+        "name": "jit.openexr",
+        "digest": "Read or write an OpenEXR image."
+      },
+      "jit.multiplex.maxref.xml": {
+        "name": "jit.multiplex",
+        "digest": "Multiplex (interleave) two matrices into one matrix"
+      },
+      "jit.la.mult.maxref.xml": {
+        "name": "jit.la.mult",
+        "digest": "True matrix multiplication"
+      },
+      "jit.group-mop.maxref.xml": {
+        "name": "Jitter Matrix Operators",
+        "digest": "Messages and attributes common to Jitter matrix operators"
+      },
+      "jit.charmap.maxref.xml": {
+        "name": "jit.charmap",
+        "digest": "Map 256-point input to output"
+      },
+      "jit.bsort.maxref.xml": {
+        "name": "jit.bsort",
+        "digest": "Bubble sort"
+      },
+      "jit.gl.cornerpin.maxref.xml": {
+        "name": "jit.gl.cornerpin",
+        "digest": "Map textures in a window"
+      },
+      "jit.reverse.maxref.xml": {
+        "name": "jit.reverse",
+        "digest": "Reverse output with respect to input"
+      },
+      "jit.net.send.maxref.xml": {
+        "name": "jit.net.send",
+        "digest": "Send matrices to a jit.net.recv object via TCP/IP"
+      },
+      "jit.gl.material.maxref.xml": {
+        "name": "jit.gl.material",
+        "digest": "Generate materials for 3D objects"
+      },
+      "jit.grgb2argb.maxref.xml": {
+        "name": "jit.grgb2argb",
+        "digest": "Convert GRGB to ARGB"
+      },
+      "jit.eclipse.maxref.xml": {
+        "name": "jit.eclipse",
+        "digest": "Create images from images"
+      },
+      "jit.pack.maxref.xml": {
+        "name": "jit.pack",
+        "digest": "Make a multiplane matrix out of single plane matrices"
+      },
+      "jit.hatch.maxref.xml": {
+        "name": "jit.hatch",
+        "digest": "Perform crosshatch filtering"
+      },
+      "jit.brass.maxref.xml": {
+        "name": "jit.brass",
+        "digest": "Emboss image"
+      },
+      "jit.ayuv2luma.maxref.xml": {
+        "name": "jit.ayuv2luma",
+        "digest": "Convert AYUV to monochrome (luminance)"
+      },
+      "jit.tiffany.maxref.xml": {
+        "name": "jit.tiffany",
+        "digest": "Arbitrary rectangular resampling"
+      },
+      "jit.plur.maxref.xml": {
+        "name": "jit.plur",
+        "digest": "Peace Love Unity Rave"
+      },
+      "jit.phys.6dof.maxref.xml": {
+        "name": "jit.phys.6dof",
+        "digest": "A six degrees of freedom constraint in a physics world"
+      },
+      "jit.la.diagproduct.maxref.xml": {
+        "name": "jit.la.diagproduct",
+        "digest": "Calculate the product across the main diagonal"
+      },
+      "jit.gradient.maxref.xml": {
+        "name": "jit.gradient",
+        "digest": "Generate Chebyshev gradients"
+      },
+      "jit.clip.maxref.xml": {
+        "name": "jit.clip",
+        "digest": "Limit data to a range"
+      },
+      "jit.gl.gridshape.maxref.xml": {
+        "name": "jit.gl.gridshape",
+        "digest": "Generate simple geometric shapes as a grid"
+      },
+      "jit.gl.videoplane.maxref.xml": {
+        "name": "jit.gl.videoplane",
+        "digest": "Display video in OpenGL"
+      },
+      "jit.plot.maxref.xml": {
+        "name": "jit.plot",
+        "digest": "(x,y) plotting of a two-plane matrix"
+      },
+      "jit.gl.model.maxref.xml": {
+        "name": "jit.gl.model",
+        "digest": "Read and draw various 3D model formats"
+      },
+      "jit.quat2euler.maxref.xml": {
+        "name": "jit.quat2euler",
+        "digest": "Quaternion to Euler conversion"
+      },
+      "jit.plume.maxref.xml": {
+        "name": "jit.plume",
+        "digest": "Displace points based on luminance"
+      },
+      "jit.op.maxref.xml": {
+        "name": "jit.op",
+        "digest": "Apply binary or unary operators"
+      },
+      "jit.freeframe.maxref.xml": {
+        "name": "jit.freeframe",
+        "digest": "Utilize FreeFrame effects"
+      },
+      "jit.fprint.maxref.xml": {
+        "name": "jit.fprint",
+        "digest": "Read/write a matrix as a text file"
+      },
+      "jit.gl.multiple.maxref.xml": {
+        "name": "jit.gl.multiple",
+        "digest": "Create multiple object instances"
+      },
+      "jit.transpose.maxref.xml": {
+        "name": "jit.transpose",
+        "digest": "Calculate the transpose of a matrix"
+      },
+      "jit.thin.maxref.xml": {
+        "name": "jit.thin",
+        "digest": "Remove redundant dimensions of size 1"
+      },
+      "jit.scanslide.maxref.xml": {
+        "name": "jit.scanslide",
+        "digest": "Cellwise spatial envelope follower"
+      },
+      "jit.linden.maxref.xml": {
+        "name": "jit.linden",
+        "digest": "Lindenmayer string expansion (L-systems)"
+      },
+      "jit.gl.pix.maxref.xml": {
+        "name": "jit.gl.pix",
+        "digest": "Generates pixel processing shaders from a patcher"
+      },
+      "jit.shade.maxref.xml": {
+        "name": "jit.shade",
+        "digest": "Map-based crossfader"
+      },
+      "jit.p.shiva.maxref.xml": {
+        "name": "jit.p.shiva",
+        "digest": "Generate/eliminate particles"
+      },
+      "jit.anim.path.maxref.xml": {
+        "name": "jit.anim.path",
+        "digest": "Evaluate a path of 3D transform points"
+      },
+      "jit.ameba.maxref.xml": {
+        "name": "jit.ameba",
+        "digest": "Downsample/upsample with non-obvious results"
+      },
+      "jit.matrix.maxref.xml": {
+        "name": "jit.matrix",
+        "digest": "The Jitter Matrix!"
+      },
+      "jit.gencoord.maxref.xml": {
+        "name": "jit.gencoord",
+        "digest": "Evaluate a procedural basis function graph"
+      },
+      "jit.brcosa.maxref.xml": {
+        "name": "jit.brcosa",
+        "digest": "Adjust image brightness/contrast/saturation"
+      },
+      "jit.gl.isosurf.maxref.xml": {
+        "name": "jit.gl.isosurf",
+        "digest": "Generate a GL based surface extraction"
+      },
+      "jit.robcross.maxref.xml": {
+        "name": "jit.robcross",
+        "digest": "Robert's Cross edge detection"
+      },
+      "jit.qball.maxref.xml": {
+        "name": "jit.qball",
+        "digest": "Convert messages at scheduler time to low priority"
+      },
+      "jit.normalize.maxref.xml": {
+        "name": "jit.normalize",
+        "digest": "Normalizes a matrix."
+      },
+      "jit.gl.physdraw.maxref.xml": {
+        "name": "jit.gl.physdraw",
+        "digest": "A physics opengl debug drawer"
+      },
+      "jit.ayuv2argb.maxref.xml": {
+        "name": "jit.ayuv2argb",
+        "digest": "Convert AYUV to ARGB"
+      },
+      "jit.phys.hinge.maxref.xml": {
+        "name": "jit.phys.hinge",
+        "digest": "A hinge constraint in a physics world"
+      },
+      "jit.phys.body.maxref.xml": {
+        "name": "jit.phys.body",
+        "digest": "A rigid body and collision shape"
+      },
+      "jit.gl.shader.maxref.xml": {
+        "name": "jit.gl.shader",
+        "digest": "Manage a GL shader"
+      },
+      "jit.matrixinfo.maxref.xml": {
+        "name": "jit.matrixinfo",
+        "digest": "Report matrix planecount, type, dimensions"
+      },
+      "jit.colorspace.maxref.xml": {
+        "name": "jit.colorspace",
+        "digest": "Convert between colorspaces"
+      },
+      "jit.p.vishnu.maxref.xml": {
+        "name": "jit.p.vishnu",
+        "digest": "Apply single force to particles"
+      },
+      "jit.net.recv.maxref.xml": {
+        "name": "jit.net.recv",
+        "digest": "Receive matrices from a jit.net.send object via TCP/IP"
+      },
+      "jit.change.maxref.xml": {
+        "name": "jit.change",
+        "digest": "Only pass different frames"
+      },
+      "jit.rgb2hsl.maxref.xml": {
+        "name": "jit.rgb2hsl",
+        "digest": "Convert RGB to HSL"
+      },
+      "jit.glop.maxref.xml": {
+        "name": "jit.glop",
+        "digest": "Produce feedback with gain staging"
+      },
+      "jit.dx.videoout.maxref.xml": {
+        "name": "jit.dx.videoout",
+        "digest": "Output video to DirectX (Windows)"
+      },
+      "jit.map.maxref.xml": {
+        "name": "jit.map",
+        "digest": "Map input range to output range"
+      },
+      "jit.avc.maxref.xml": {
+        "name": "jit.avc",
+        "digest": "Control a FireWire VTR"
+      },
+      "jit.gl.cubemap.maxref.xml": {
+        "name": "jit.gl.cubemap",
+        "digest": "Manage a cubemap texture target"
+      },
+      "jit.alphablend.maxref.xml": {
+        "name": "jit.alphablend",
+        "digest": "Blend two images with an alpha channel image"
+      },
+      "jit.expr.maxref.xml": {
+        "name": "jit.expr",
+        "digest": "Evaluate an expression to fill a matrix"
+      },
+      "jit.streak.maxref.xml": {
+        "name": "jit.streak",
+        "digest": "Probability lines"
+      },
+      "jit.rubix.maxref.xml": {
+        "name": "jit.rubix",
+        "digest": "Reorder grid of rectangles"
+      },
+      "jit.la.inverse.maxref.xml": {
+        "name": "jit.la.inverse",
+        "digest": "Calculate the inverse of a matrix"
+      },
+      "jit.conway.maxref.xml": {
+        "name": "jit.conway",
+        "digest": "Play Conway's game of life"
+      },
+      "jit.hello.maxref.xml": {
+        "name": "jit.hello",
+        "digest": "Show an example of Jitter attributes"
+      },
+      "jit.glue.maxref.xml": {
+        "name": "jit.glue",
+        "digest": "Glue many matrices into one"
+      },
+      "spigot~.maxref.xml": {
+        "name": "spigot~",
+        "digest": "Route QT audio into MSP"
+      },
+      "jit.str.regexp.maxref.xml": {
+        "name": "jit.str.regexp",
+        "digest": "Use PERL-compatible regular expressions on Jitter matrices"
+      },
+      "jit.qfaker.maxref.xml": {
+        "name": "jit.qfaker",
+        "digest": "Fake queue status"
+      },
+      "jit.print.maxref.xml": {
+        "name": "jit.print",
+        "digest": "Print a matrix in the Max window"
+      },
+      "jit.argb2grgb.maxref.xml": {
+        "name": "jit.argb2grgb",
+        "digest": "Convert ARGB to GRGB"
+      },
+      "jit.hsl2rgb.maxref.xml": {
+        "name": "jit.hsl2rgb",
+        "digest": "Convert HSL to RGB"
+      },
+      "jit.quat2axis.maxref.xml": {
+        "name": "jit.quat2axis",
+        "digest": "Quaternion to angle-axis conversion"
+      },
+      "jit.avg4.maxref.xml": {
+        "name": "jit.avg4",
+        "digest": "Average four points"
+      },
+      "jit.gl.text2d.maxref.xml": {
+        "name": "jit.gl.text2d",
+        "digest": "Render bitmap text"
+      },
+      "jit.window.maxref.xml": {
+        "name": "jit.window",
+        "digest": "Display data in a window"
+      },
+      "jit.p.bounds.maxref.xml": {
+        "name": "jit.p.bounds",
+        "digest": "Limit particles to a region of space"
+      },
+      "jit.gl.camera.maxref.xml": {
+        "name": "jit.gl.camera",
+        "digest": "Set a rendering view"
+      },
+      "jit.ayuv2uyvy.maxref.xml": {
+        "name": "jit.ayuv2uyvy",
+        "digest": "Convert AYUV to UYVY"
+      },
+      "jit.gl.slab.maxref.xml": {
+        "name": "jit.gl.slab",
+        "digest": "Process texture data"
+      },
+      "jit.displays.maxref.xml": {
+        "name": "jit.displays",
+        "digest": "Set and query monitor attributes"
+      },
+      "jit.gl.handle.maxref.xml": {
+        "name": "jit.gl.handle",
+        "digest": "Use mouse movement to control position/rotation"
+      }
+    },
+    "max-ref": {
+      "button.maxref.xml": {
+        "name": "button",
+        "digest": "Blink and send a bang"
+      },
+      "funbuff.maxref.xml": {
+        "name": "funbuff",
+        "digest": "Store pairs of numbers"
+      },
+      "suspend.maxref.xml": {
+        "name": "suspend",
+        "digest": "Reports when application is suspended or resumed"
+      },
+      "flush.maxref.xml": {
+        "name": "flush",
+        "digest": "Output MIDI note-offs for held notes"
+      },
+      "js.maxref.xml": {
+        "name": "js",
+        "digest": "Execute Javascript"
+      },
+      "asinh.maxref.xml": {
+        "name": "asinh",
+        "digest": "Hyperbolic arc-sine function"
+      },
+      "anal.maxref.xml": {
+        "name": "anal",
+        "digest": "Make a histogram of number pairs"
+      },
+      "getattr.maxref.xml": {
+        "name": "getattr",
+        "digest": "Query object attributes"
+      },
+      "past.maxref.xml": {
+        "name": "past",
+        "digest": "Notify when a threshold is passed"
+      },
+      "gswitch2.maxref.xml": {
+        "name": "ggate",
+        "digest": "Send input to one of two outlets"
+      },
+      "dict.iter.maxref.xml": {
+        "name": "dict.iter",
+        "digest": "Stream the content of a dictionary"
+      },
+      "xbendout.maxref.xml": {
+        "name": "xbendout",
+        "digest": "Format extra precision MIDI pitch bend messages"
+      },
+      "ubutton.maxref.xml": {
+        "name": "ubutton",
+        "digest": "Send a bang with a transparent button"
+      },
+      "sqrt.maxref.xml": {
+        "name": "sqrt",
+        "digest": "Square root function"
+      },
+      "absolutepath.maxref.xml": {
+        "name": "absolutepath",
+        "digest": "Convert a file name to an absolute path"
+      },
+      "ftom.maxref.xml": {
+        "name": "ftom",
+        "digest": "Convert frequency to a MIDI note number"
+      },
+      "midiflush.maxref.xml": {
+        "name": "midiflush",
+        "digest": "Send MIDI note-offs for hanging note-ons"
+      },
+      "delay.maxref.xml": {
+        "name": "delay",
+        "digest": "Delay a bang"
+      },
+      "dict.group.maxref.xml": {
+        "name": "dict.group",
+        "digest": "Build a dictionary iteratively"
+      },
+      "loadmess.maxref.xml": {
+        "name": "loadmess",
+        "digest": "Send a message when a patch is loaded"
+      },
+      "acosh.maxref.xml": {
+        "name": "acosh",
+        "digest": "Hyperbolic arc-cosine function"
+      },
+      "atan2.maxref.xml": {
+        "name": "atan2",
+        "digest": "Two-variable arc-tangent function"
+      },
+      "gswitch.maxref.xml": {
+        "name": "gswitch",
+        "digest": "Select output from two inlets"
+      },
+      "xnotein.maxref.xml": {
+        "name": "xnotein",
+        "digest": "Interpret MIDI note messages with release velocity"
+      },
+      "poltocar.maxref.xml": {
+        "name": "poltocar",
+        "digest": "Convert polar to cartesian coordinates"
+      },
+      "numkey.maxref.xml": {
+        "name": "numkey",
+        "digest": "Interpret numbers typed on the keyboard"
+      },
+      "hint.maxref.xml": {
+        "name": "hint",
+        "digest": "Display hint text"
+      },
+      "fromsymbol.maxref.xml": {
+        "name": "fromsymbol",
+        "digest": "Convert a symbol into numbers/messages"
+      },
+      "append.maxref.xml": {
+        "name": "append",
+        "digest": "Append arguments to the end of a message"
+      },
+      "message.maxref.xml": {
+        "name": "message",
+        "digest": "Send any message"
+      },
+      "filedate.maxref.xml": {
+        "name": "filedate",
+        "digest": "Report the modification date of a file"
+      },
+      "pow.maxref.xml": {
+        "name": "pow",
+        "digest": "Computes input to the nth power"
+      },
+      "pattrforward.maxref.xml": {
+        "name": "pattrforward",
+        "digest": "Send any message to a named object"
+      },
+      "pattr.maxref.xml": {
+        "name": "pattr",
+        "digest": "Provide an alias with a named data wrapper"
+      },
+      "folder.maxref.xml": {
+        "name": "folder",
+        "digest": "List the files in a folder"
+      },
+      "filepath.maxref.xml": {
+        "name": "filepath",
+        "digest": "Manage and report on the Max search path"
+      },
+      "jsui.maxref.xml": {
+        "name": "jsui",
+        "digest": "Create user interfaces with Javascript"
+      },
+      "trough.maxref.xml": {
+        "name": "trough",
+        "digest": "Output a number if it is less than previous numbers"
+      },
+      "togedge.maxref.xml": {
+        "name": "togedge",
+        "digest": "Report zero/non-zero transitions"
+      },
+      "nslider.maxref.xml": {
+        "name": "nslider",
+        "digest": "Output numbers from a notation display"
+      },
+      "acos.maxref.xml": {
+        "name": "acos",
+        "digest": "Arc-cosine function"
+      },
+      "bondo.maxref.xml": {
+        "name": "bondo",
+        "digest": "Synchronize a group of messages"
+      },
+      "mtof.maxref.xml": {
+        "name": "mtof",
+        "digest": "Convert a MIDI note number to frequency"
+      },
+      "fontlist.maxref.xml": {
+        "name": "fontlist",
+        "digest": "List system fonts"
+      },
+      "cos.maxref.xml": {
+        "name": "cos",
+        "digest": "Cosine function"
+      },
+      "timer.maxref.xml": {
+        "name": "timer",
+        "digest": "Report elapsed time between two events"
+      },
+      "scale.maxref.xml": {
+        "name": "scale",
+        "digest": "Map values to an output range"
+      },
+      "router.maxref.xml": {
+        "name": "router",
+        "digest": "Route messages to multiple locations"
+      },
+      "relativepath.maxref.xml": {
+        "name": "relativepath",
+        "digest": "Convert an absolute to a relative path"
+      },
+      "mean.maxref.xml": {
+        "name": "mean",
+        "digest": "Calculate a running average"
+      },
+      "colorpicker.maxref.xml": {
+        "name": "colorpicker",
+        "digest": "Select and output a color"
+      },
+      "udpsend.maxref.xml": {
+        "name": "udpsend",
+        "digest": "Send messages over a network"
+      },
+      "playbar.maxref.xml": {
+        "name": "playbar",
+        "digest": "Movie/SoundFiles controller"
+      },
+      "buddy.maxref.xml": {
+        "name": "buddy",
+        "digest": "Synchronize arriving data"
+      },
+      "tosymbol.maxref.xml": {
+        "name": "tosymbol",
+        "digest": "Convert messages, numbers, or lists to a single symbol"
+      },
+      "table.maxref.xml": {
+        "name": "table",
+        "digest": "Store and edit an array of numbers"
+      },
+      "slide.maxref.xml": {
+        "name": "slide",
+        "digest": "Smooth values logarithmically"
+      },
+      "round.maxref.xml": {
+        "name": "round",
+        "digest": "Round to a value"
+      },
+      "filewatch.maxref.xml": {
+        "name": "filewatch",
+        "digest": "Watch a file for changes"
+      },
+      "filein.maxref.xml": {
+        "name": "filein",
+        "digest": "Read and access a file of binary data"
+      },
+      "prepend.maxref.xml": {
+        "name": "prepend",
+        "digest": "Add a message in front of input"
+      },
+      "pong.maxref.xml": {
+        "name": "pong",
+        "digest": "Range limiting"
+      },
+      "bline.maxref.xml": {
+        "name": "bline",
+        "digest": "Generate ramps using bang"
+      },
+      "timepoint.maxref.xml": {
+        "name": "timepoint",
+        "digest": "Bang at a specific time"
+      },
+      "slider.maxref.xml": {
+        "name": "slider",
+        "digest": "Move a slider to output values"
+      },
+      "clip.maxref.xml": {
+        "name": "clip",
+        "digest": "Limit numbers to a certain range"
+      },
+      "atanh.maxref.xml": {
+        "name": "atanh",
+        "digest": "Hyperbolic arc-tangent function"
+      },
+      "midiinfo.maxref.xml": {
+        "name": "midiinfo",
+        "digest": "Fill a pop-up menu with MIDI device names"
+      },
+      "date.maxref.xml": {
+        "name": "date",
+        "digest": "Report current date and time"
+      },
+      "bucket.maxref.xml": {
+        "name": "bucket",
+        "digest": "Pass numbers from outlet to outlet"
+      },
+      "decode.maxref.xml": {
+        "name": "decode",
+        "digest": "Send 1 or 0 out a specific outlet"
+      },
+      "savedialog.maxref.xml": {
+        "name": "savedialog",
+        "digest": "Open a dialog asking for a filename"
+      },
+      "opendialog.maxref.xml": {
+        "name": "opendialog",
+        "digest": "Open a dialog to ask for a file or folder"
+      },
+      "metro.maxref.xml": {
+        "name": "metro",
+        "digest": "Output a bang message at regular intervals"
+      },
+      "mtr.maxref.xml": {
+        "name": "mtr",
+        "digest": "Record and sequence messages"
+      },
+      "thresh.maxref.xml": {
+        "name": "thresh",
+        "digest": "Combine numbers and lists when received close together"
+      },
+      "tab.maxref.xml": {
+        "name": "tab",
+        "digest": "Select values with tabs or multiple buttons"
+      },
+      "pv.maxref.xml": {
+        "name": "pv",
+        "digest": "Share data within a patch hierarchy"
+      },
+      "dict.deserialize.maxref.xml": {
+        "name": "dict.deserialize",
+        "digest": "Create a dictionary from text"
+      },
+      "conformpath.maxref.xml": {
+        "name": "conformpath",
+        "digest": "Convert file paths styles"
+      },
+      "cycle.maxref.xml": {
+        "name": "cycle",
+        "digest": "Round-robin messages to outlets"
+      },
+      "toggle.maxref.xml": {
+        "name": "toggle",
+        "digest": "Switch between off and on (0/1)"
+      },
+      "strippath.maxref.xml": {
+        "name": "strippath",
+        "digest": "Separate filename from a full pathname"
+      },
+      "qlist.maxref.xml": {
+        "name": "qlist",
+        "digest": "Store a collection of messages"
+      },
+      "movie.maxref.xml": {
+        "name": "movie",
+        "digest": "Play a QuickTime movie in a window"
+      },
+      "line.maxref.xml": {
+        "name": "line",
+        "digest": "Generate timed ramp"
+      },
+      "sustain.maxref.xml": {
+        "name": "sustain",
+        "digest": "Hold note-off messages for release"
+      },
+      "screensize.maxref.xml": {
+        "name": "screensize",
+        "digest": "Output the monitor size"
+      },
+      "clocker.maxref.xml": {
+        "name": "clocker",
+        "digest": "Report elapsed time, at regular intervals"
+      },
+      "mousefilter.maxref.xml": {
+        "name": "mousefilter",
+        "digest": "Gate messages with the mouse"
+      },
+      "itable.maxref.xml": {
+        "name": "itable",
+        "digest": "Graphic display of a table"
+      },
+      "zl.maxref.xml": {
+        "name": "zl",
+        "digest": "Process lists in many ways"
+      },
+      "tempo.maxref.xml": {
+        "name": "tempo",
+        "digest": "Output numbers at a metronomic tempo"
+      },
+      "poly.maxref.xml": {
+        "name": "poly",
+        "digest": "Allocate notes to different voices"
+      },
+      "iter.maxref.xml": {
+        "name": "iter",
+        "digest": "Break a list into individual messages"
+      },
+      "listfunnel.maxref.xml": {
+        "name": "listfunnel",
+        "digest": "Index and output list elements"
+      },
+      "detonate.maxref.xml": {
+        "name": "detonate",
+        "digest": "Play a score of note events"
+      },
+      "dict.route.maxref.xml": {
+        "name": "dict.route",
+        "digest": "Compare dictionaries"
+      },
+      "imovie.maxref.xml": {
+        "name": "imovie",
+        "digest": "Play a movie in a patcher window"
+      },
+      "function.maxref.xml": {
+        "name": "function",
+        "digest": "Graphically edit a breakpoint function"
+      },
+      "unjoin.maxref.xml": {
+        "name": "unjoin",
+        "digest": "Break a list into messages"
+      },
+      "spell.maxref.xml": {
+        "name": "spell",
+        "digest": "Convert input to ASCII codes"
+      },
+      "serial.maxref.xml": {
+        "name": "serial",
+        "digest": "Send and receive from a serial port"
+      },
+      "radiogroup.maxref.xml": {
+        "name": "radiogroup",
+        "digest": "Radio button/check box user interface"
+      },
+      "pictctrl.maxref.xml": {
+        "name": "pictctrl",
+        "digest": "Picture-based control"
+      },
+      "peak.maxref.xml": {
+        "name": "peak",
+        "digest": "Output larger numbers"
+      },
+      "patcherargs.maxref.xml": {
+        "name": "patcherargs",
+        "digest": "Retrieve patcher arguments"
+      },
+      "next.maxref.xml": {
+        "name": "next",
+        "digest": "Detect separation of messages"
+      },
+      "linedrive.maxref.xml": {
+        "name": "linedrive",
+        "digest": "Scale numbers exponentially"
+      },
+      "dropfile.maxref.xml": {
+        "name": "dropfile",
+        "digest": "Interface for file drag and drop"
+      },
+      "maximum.maxref.xml": {
+        "name": "maximum",
+        "digest": "Output the highest value"
+      },
+      "tan.maxref.xml": {
+        "name": "tan",
+        "digest": "Tangent function"
+      },
+      "forward.maxref.xml": {
+        "name": "forward",
+        "digest": "Send messages to specified receive objects"
+      },
+      "multislider.maxref.xml": {
+        "name": "multislider",
+        "digest": "Display data as sliders or a scrolling display"
+      },
+      "hi.maxref.xml": {
+        "name": "hi",
+        "digest": "Human Interface (gaming) device input"
+      },
+      "xnoteout.maxref.xml": {
+        "name": "xnoteout",
+        "digest": "Format MIDI note messages with release velocity"
+      },
+      "universal.maxref.xml": {
+        "name": "universal",
+        "digest": "Send messages to all objects of the same type"
+      },
+      "sprintf.maxref.xml": {
+        "name": "sprintf",
+        "digest": "Format a message of words and numbers"
+      },
+      "rslider.maxref.xml": {
+        "name": "rslider",
+        "digest": "Display or change a range of numbers"
+      },
+      "prob.maxref.xml": {
+        "name": "prob",
+        "digest": "Create a weighted transition table"
+      },
+      "number.maxref.xml": {
+        "name": "number",
+        "digest": "Display and output a number"
+      },
+      "bgcolor.maxref.xml": {
+        "name": "bgcolor",
+        "digest": "Set background color"
+      },
+      "minimum.maxref.xml": {
+        "name": "minimum",
+        "digest": "Output the smallest value"
+      },
+      "vexpr.maxref.xml": {
+        "name": "vexpr",
+        "digest": "Evaluate a math expression for a list"
+      },
+      "textbutton.maxref.xml": {
+        "name": "textbutton",
+        "digest": "A user interface button/toggle"
+      },
+      "text.maxref.xml": {
+        "name": "text",
+        "digest": "Format messages as a text file"
+      },
+      "rdiv.maxref.xml": {
+        "name": "!/",
+        "digest": "Divide input from a number"
+      },
+      "pipe.maxref.xml": {
+        "name": "pipe",
+        "digest": "Delay numbers, lists or symbols"
+      },
+      "pictslider.maxref.xml": {
+        "name": "pictslider",
+        "digest": "Picture-based slider control"
+      },
+      "offer.maxref.xml": {
+        "name": "offer",
+        "digest": "Store one-time number pairs"
+      },
+      "dialog.maxref.xml": {
+        "name": "dialog",
+        "digest": "Open a dialog box for text entry"
+      },
+      "fpic.maxref.xml": {
+        "name": "fpic",
+        "digest": "Display a picture from a graphics file"
+      },
+      "dict.strip.maxref.xml": {
+        "name": "dict.strip",
+        "digest": "Remove keys from a dictionary"
+      },
+      "udpreceive.maxref.xml": {
+        "name": "udpreceive",
+        "digest": "Receive messages over a network"
+      },
+      "standalone.maxref.xml": {
+        "name": "standalone",
+        "digest": "Configure parameters for standalone applications"
+      },
+      "qmetro.maxref.xml": {
+        "name": "qmetro",
+        "digest": "Queue-based metronome"
+      },
+      "autopattr.maxref.xml": {
+        "name": "autopattr",
+        "digest": "Expose multiple objects to the pattr system"
+      },
+      "kslider.maxref.xml": {
+        "name": "kslider",
+        "digest": "Output numbers from an onscreen keyboard"
+      },
+      "capture.maxref.xml": {
+        "name": "capture",
+        "digest": "Store values to view or edit"
+      },
+      "histo.maxref.xml": {
+        "name": "histo",
+        "digest": "Create a histogram of numbers received"
+      },
+      "funnel.maxref.xml": {
+        "name": "funnel",
+        "digest": "Tag data with its inlet number"
+      },
+      "flonum.maxref.xml": {
+        "name": "flonum",
+        "digest": "Display and output a number"
+      },
+      "speedlim.maxref.xml": {
+        "name": "speedlim",
+        "digest": "Limit the speed of message throughput"
+      },
+      "qlim.maxref.xml": {
+        "name": "qlim",
+        "digest": "Queue-based message limiter"
+      },
+      "attrui.maxref.xml": {
+        "name": "attrui",
+        "digest": "Inspect attributes"
+      },
+      "incdec.maxref.xml": {
+        "name": "incdec",
+        "digest": "Increment and decrement a value"
+      },
+      "dict.serialize.maxref.xml": {
+        "name": "dict.serialize",
+        "digest": "Convert a dictionary's content to text"
+      },
+      "dict.unpack.maxref.xml": {
+        "name": "dict.unpack",
+        "digest": "Extract values from a dictionary"
+      },
+      "cartopol.maxref.xml": {
+        "name": "cartopol",
+        "digest": "Convert cartesian to polar coordinates"
+      },
+      "drunk.maxref.xml": {
+        "name": "drunk",
+        "digest": "Output random numbers within a step range"
+      },
+      "spray.maxref.xml": {
+        "name": "spray",
+        "digest": "Distribute a value to a numbered outlet"
+      },
+      "mousestate.maxref.xml": {
+        "name": "mousestate",
+        "digest": "Report the mouse information"
+      },
+      "defer.maxref.xml": {
+        "name": "defer",
+        "digest": "Defer execution of a message"
+      },
+      "coll.maxref.xml": {
+        "name": "coll",
+        "digest": "Store and edit a collection of data"
+      },
+      "dict.join.maxref.xml": {
+        "name": "dict.join",
+        "digest": "Merge the content of two dictionaries"
+      },
+      "pattrstorage.maxref.xml": {
+        "name": "pattrstorage",
+        "digest": "Save and recall pattr presets"
+      },
+      "led.maxref.xml": {
+        "name": "led",
+        "digest": "Display on/off status"
+      },
+      "match.maxref.xml": {
+        "name": "match",
+        "digest": "Watch for a message match, then output the message"
+      },
+      "counter.maxref.xml": {
+        "name": "counter",
+        "digest": "Keep count based on bang messages"
+      },
+      "dict.print.maxref.xml": {
+        "name": "dict.print",
+        "digest": "Post a dictionary to the Max window"
+      },
+      "xbendin.maxref.xml": {
+        "name": "xbendin",
+        "digest": "Interpret extra precision MIDI pitch bend values"
+      },
+      "tanh.maxref.xml": {
+        "name": "tanh",
+        "digest": "Hyperbolic tangent function"
+      },
+      "mxj.maxref.xml": {
+        "name": "mxj",
+        "digest": "Execute Java in Max"
+      },
+      "dict.pack.maxref.xml": {
+        "name": "dict.pack",
+        "digest": "Create a dictionary and set its values"
+      },
+      "join.maxref.xml": {
+        "name": "join",
+        "digest": "Combine items into a list"
+      },
+      "dict.slice.maxref.xml": {
+        "name": "dict.slice",
+        "digest": "Split a dictionary into two dictionaries"
+      },
+      "onebang.maxref.xml": {
+        "name": "onebang",
+        "digest": "Gate bangs using a bang"
+      },
+      "decide.maxref.xml": {
+        "name": "decide",
+        "digest": "Choose randomly between 1 and 0"
+      },
+      "itoa.maxref.xml": {
+        "name": "itoa",
+        "digest": "Convert integers to ASCII characters"
+      },
+      "cosh.maxref.xml": {
+        "name": "cosh",
+        "digest": "Hyperbolic cosine function"
+      },
+      "when.maxref.xml": {
+        "name": "when",
+        "digest": "Report the current transport time"
+      },
+      "uzi.maxref.xml": {
+        "name": "uzi",
+        "digest": "Send many bang messages"
+      },
+      "umenu.maxref.xml": {
+        "name": "umenu",
+        "digest": "Create and fill a pop-up menu"
+      },
+      "transport.maxref.xml": {
+        "name": "transport",
+        "digest": "Control a master clock"
+      },
+      "translate.maxref.xml": {
+        "name": "translate",
+        "digest": "Convert between different units of time."
+      },
+      "sin.maxref.xml": {
+        "name": "sin",
+        "digest": "Sine function"
+      },
+      "pattrhub.maxref.xml": {
+        "name": "pattrhub",
+        "digest": "Access all pattr objects in a patcher"
+      },
+      "panel.maxref.xml": {
+        "name": "panel",
+        "digest": "Colored background area"
+      },
+      "borax.maxref.xml": {
+        "name": "borax",
+        "digest": "Report note-on and note-off information"
+      },
+      "atodb.maxref.xml": {
+        "name": "atodb",
+        "digest": "Convert linear amplitude to decibels"
+      },
+      "dial.maxref.xml": {
+        "name": "dial",
+        "digest": "Output numbers using an onscreen dial"
+      },
+      "cpuclock.maxref.xml": {
+        "name": "cpuclock",
+        "digest": "Retrieve the CPU time"
+      },
+      "gestalt.maxref.xml": {
+        "name": "gestalt",
+        "digest": "Retrieve system information"
+      },
+      "vdp.maxref.xml": {
+        "name": "vdp",
+        "digest": "Control a videodisk player through a serial port"
+      },
+      "substitute.maxref.xml": {
+        "name": "substitute",
+        "digest": "Substitute symbols within a message"
+      },
+      "split.maxref.xml": {
+        "name": "split",
+        "digest": "Look for a range of numbers"
+      },
+      "nodes.maxref.xml": {
+        "name": "nodes",
+        "digest": "Interpolate parameter with a 2D interface."
+      },
+      "lcd.maxref.xml": {
+        "name": "lcd",
+        "digest": "Draw graphics in a patcher window"
+      },
+      "sxformat.maxref.xml": {
+        "name": "sxformat",
+        "digest": "Prepare MIDI system exclusive messages"
+      },
+      "rminus.maxref.xml": {
+        "name": "!-",
+        "digest": "Subtraction object (inlets reversed)"
+      },
+      "quickthresh.maxref.xml": {
+        "name": "quickthresh",
+        "digest": "Fast chord detection"
+      },
+      "dbtoa.maxref.xml": {
+        "name": "dbtoa",
+        "digest": "Convert decibels to a linear amplitude"
+      },
+      "hover.maxref.xml": {
+        "name": "hover",
+        "digest": "Report object scripting names"
+      },
+      "comment.maxref.xml": {
+        "name": "comment",
+        "digest": "Explanatory note or label"
+      },
+      "combine.maxref.xml": {
+        "name": "combine",
+        "digest": "Combine multiple items into a single symbol"
+      },
+      "swatch.maxref.xml": {
+        "name": "swatch",
+        "digest": "Select and display RGB colors"
+      },
+      "makenote.maxref.xml": {
+        "name": "makenote",
+        "digest": "Generate a note-on/note-off pair"
+      },
+      "atan.maxref.xml": {
+        "name": "atan",
+        "digest": "Arc-tangent function"
+      },
+      "asin.maxref.xml": {
+        "name": "asin",
+        "digest": "Arc-sine function"
+      },
+      "jit.cellblock.maxref.xml": {
+        "name": "jit.cellblock",
+        "digest": "Two-dimensional storage and viewing"
+      },
+      "zmap.maxref.xml": {
+        "name": "zmap",
+        "digest": "Maps input range of values to output range"
+      },
+      "suckah.maxref.xml": {
+        "name": "suckah",
+        "digest": "Get a pixel from the display"
+      },
+      "regexp.maxref.xml": {
+        "name": "regexp",
+        "digest": "Use regular expressions to process input"
+      },
+      "pak.maxref.xml": {
+        "name": "pak",
+        "digest": "Output a list when any element changes"
+      },
+      "atoi.maxref.xml": {
+        "name": "atoi",
+        "digest": "Convert ASCII characters to integers"
+      },
+      "deferlow.maxref.xml": {
+        "name": "deferlow",
+        "digest": "Defer the execution of a message (always)"
+      },
+      "modifiers.maxref.xml": {
+        "name": "modifiers",
+        "digest": "Report modifier key presses"
+      },
+      "urn.maxref.xml": {
+        "name": "urn",
+        "digest": "Generate random numbers without duplicates"
+      },
+      "textedit.maxref.xml": {
+        "name": "textedit",
+        "digest": "Enter text within a patcher"
+      },
+      "sinh.maxref.xml": {
+        "name": "sinh",
+        "digest": "Hyperbolic sine function"
+      },
+      "pattrmarker.maxref.xml": {
+        "name": "pattrmarker",
+        "digest": "Provide pattr communication between patchers"
+      },
+      "matrixctrl.maxref.xml": {
+        "name": "matrixctrl",
+        "digest": "Matrix switch control"
+      }
+    },
+    "kernel-ref": {
+      "route.maxref.xml": {
+        "name": "route",
+        "digest": "Select outlet based on input matching"
+      },
+      "bitand.maxref.xml": {
+        "name": "&",
+        "digest": "Bitwise intersection of two numbers"
+      },
+      "send.maxref.xml": {
+        "name": "send",
+        "digest": "Send messages without patch cords"
+      },
+      "jweb.maxref.xml": {
+        "name": "jweb",
+        "digest": "Website data in a Max UI external"
+      },
+      "routepass.maxref.xml": {
+        "name": "routepass",
+        "digest": "Route a complete incoming message based on input matching"
+      },
+      "accum.maxref.xml": {
+        "name": "accum",
+        "digest": "Store, add to, and multiply a number"
+      },
+      "keyup.maxref.xml": {
+        "name": "keyup",
+        "digest": "Report key information on release"
+      },
+      "menubar.maxref.xml": {
+        "name": "menubar",
+        "digest": "Put up a custom menu bar"
+      },
+      "dict.maxref.xml": {
+        "name": "dict",
+        "digest": "Create and access dictionaries"
+      },
+      "if.maxref.xml": {
+        "name": "if",
+        "digest": "Conditional statement in if/then/else form"
+      },
+      "notequals.maxref.xml": {
+        "name": "!=",
+        "digest": "Compare numbers for not-equal-to condition"
+      },
+      "bitor.maxref.xml": {
+        "name": "|",
+        "digest": "Bitwise union of two numbers"
+      },
+      "dsp.maxref.xml": {
+        "name": "dsp",
+        "digest": "DSP"
+      },
+      "error.maxref.xml": {
+        "name": "error",
+        "digest": "Report Max errors"
+      },
+      "ctlin.maxref.xml": {
+        "name": "ctlin",
+        "digest": "Output received MIDI control values"
+      },
+      "random.maxref.xml": {
+        "name": "random",
+        "digest": "Generate a random number"
+      },
+      "abs.maxref.xml": {
+        "name": "abs",
+        "digest": "Calculate an absolute value"
+      },
+      "patcher.maxref.xml": {
+        "name": "patcher",
+        "digest": "Create a subpatch within a patch"
+      },
+      "logor.maxref.xml": {
+        "name": "||",
+        "digest": "Perform a logical OR"
+      },
+      "trigger.maxref.xml": {
+        "name": "trigger",
+        "digest": "Send input to many places"
+      },
+      "receive.maxref.xml": {
+        "name": "receive",
+        "digest": "Receive messages without patch cords"
+      },
+      "pgmin.maxref.xml": {
+        "name": "pgmin",
+        "digest": "Receive MIDI program changes"
+      },
+      "midiout.maxref.xml": {
+        "name": "midiout",
+        "digest": "Transmit raw MIDI data"
+      },
+      "int.maxref.xml": {
+        "name": "int",
+        "digest": "Store an integer value"
+      },
+      "active.maxref.xml": {
+        "name": "active",
+        "digest": "Send 1 when patcher window is active, 0 when inactive"
+      },
+      "thispatcher.maxref.xml": {
+        "name": "thispatcher",
+        "digest": "Send messages to a patcher"
+      },
+      "setclock.maxref.xml": {
+        "name": "setclock",
+        "digest": "Create and control an alternative clock"
+      },
+      "jit_kernel.maxref.xml": {
+        "name": "jit_kernel",
+        "digest": "Jitter"
+      },
+      "bangbang.maxref.xml": {
+        "name": "bangbang",
+        "digest": "Output a bang from many outlets"
+      },
+      "follow.maxref.xml": {
+        "name": "follow",
+        "digest": "Compare a live performance to a recorded performance"
+      },
+      "gate.maxref.xml": {
+        "name": "gate",
+        "digest": "Pass input to an outlet"
+      },
+      "float.maxref.xml": {
+        "name": "float",
+        "digest": "Store a decimal number"
+      },
+      "noteout.maxref.xml": {
+        "name": "noteout",
+        "digest": "Transmit MIDI note messages"
+      },
+      "polyin.maxref.xml": {
+        "name": "polyin",
+        "digest": "Received MIDI poly pressure"
+      },
+      "pvar.maxref.xml": {
+        "name": "pvar",
+        "digest": "Connect to a named object in a patcher"
+      },
+      "modulo.maxref.xml": {
+        "name": "%",
+        "digest": "Divide two numbers, output the remainder"
+      },
+      "freebang.maxref.xml": {
+        "name": "freebang",
+        "digest": "Send a bang when a patcher is freed"
+      },
+      "outlet.maxref.xml": {
+        "name": "outlet",
+        "digest": "Send messages out of a patcher"
+      },
+      "max.maxref.xml": {
+        "name": "max",
+        "digest": "Max"
+      },
+      "loadbang.maxref.xml": {
+        "name": "loadbang",
+        "digest": "Send a bang when a patcher is loaded"
+      },
+      "jstrigger.maxref.xml": {
+        "name": "jstrigger",
+        "digest": "Execute Javascript instructions sequentially"
+      },
+      "pcontrol.maxref.xml": {
+        "name": "pcontrol",
+        "digest": "Open and close subwindows"
+      },
+      "stripnote.maxref.xml": {
+        "name": "stripnote",
+        "digest": "Filter out note-off messages"
+      },
+      "select.maxref.xml": {
+        "name": "select",
+        "digest": "Output bangs based on input matching"
+      },
+      "bendout.maxref.xml": {
+        "name": "bendout",
+        "digest": "Send MIDI pitch bend messages"
+      },
+      "minus.maxref.xml": {
+        "name": "-",
+        "digest": "Subtract two numbers, output the result"
+      },
+      "print.maxref.xml": {
+        "name": "print",
+        "digest": "Print any message in the max window"
+      },
+      "inlet.maxref.xml": {
+        "name": "inlet",
+        "digest": "Receive messages from outside a patcher"
+      },
+      "ctlout.maxref.xml": {
+        "name": "ctlout",
+        "digest": "Transmit MIDI controller messages"
+      },
+      "key.maxref.xml": {
+        "name": "key",
+        "digest": "Report keyboard presses"
+      },
+      "onecopy.maxref.xml": {
+        "name": "onecopy",
+        "digest": "Prevent multiple copies of the same patcher from being opened"
+      },
+      "value.maxref.xml": {
+        "name": "value",
+        "digest": "Share a number with other objects"
+      },
+      "rtin.maxref.xml": {
+        "name": "rtin",
+        "digest": "Receive MIDI real time messages"
+      },
+      "equals.maxref.xml": {
+        "name": "==",
+        "digest": "Compare numbers for equal-to condition"
+      },
+      "logand.maxref.xml": {
+        "name": "&&",
+        "digest": "Perform a logical AND"
+      },
+      "midiin.maxref.xml": {
+        "name": "midiin",
+        "digest": "Output raw MIDI data"
+      },
+      "bag.maxref.xml": {
+        "name": "bag",
+        "digest": "Store a collection of numbers"
+      },
+      "change.maxref.xml": {
+        "name": "change",
+        "digest": "Filter out repetitions of a number"
+      },
+      "midiparse.maxref.xml": {
+        "name": "midiparse",
+        "digest": "Interpret raw MIDI data"
+      },
+      "greaterthaneq.maxref.xml": {
+        "name": ">=",
+        "digest": "Compare numbers for greater than or equal to condition"
+      },
+      "expr.maxref.xml": {
+        "name": "expr",
+        "digest": "Evaluate a mathematical expression"
+      },
+      "pack.maxref.xml": {
+        "name": "pack",
+        "digest": "Create a list"
+      },
+      "touchout.maxref.xml": {
+        "name": "touchout",
+        "digest": "Transmit MIDI aftertouch messages"
+      },
+      "closebang.maxref.xml": {
+        "name": "closebang",
+        "digest": "Send a bang on close"
+      },
+      "greaterthan.maxref.xml": {
+        "name": ">",
+        "digest": "Compare numbers for greater than condition"
+      },
+      "grab.maxref.xml": {
+        "name": "grab",
+        "digest": "Intercept the output of another object"
+      },
+      "plus.maxref.xml": {
+        "name": "+",
+        "digest": "Add two numbers, output the result"
+      },
+      "unpack.maxref.xml": {
+        "name": "unpack",
+        "digest": "Break a list into individual messages"
+      },
+      "switch.maxref.xml": {
+        "name": "switch",
+        "digest": "Accept messages from a specific inlet"
+      },
+      "jbox.maxref.xml": {
+        "name": "jbox",
+        "digest": "Common Box Attributes"
+      },
+      "polyout.maxref.xml": {
+        "name": "polyout",
+        "digest": "Send MIDI poly pressure"
+      },
+      "midiformat.maxref.xml": {
+        "name": "midiformat",
+        "digest": "Prepare data in the form of a MIDI message"
+      },
+      "dict.view.maxref.xml": {
+        "name": "dict.view",
+        "digest": "View the contents of a dictionary"
+      },
+      "swap.maxref.xml": {
+        "name": "swap",
+        "digest": "Swap position of two numbers"
+      },
+      "seq.maxref.xml": {
+        "name": "seq",
+        "digest": "Sequencer for recording and playing MIDI data"
+      },
+      "notein.maxref.xml": {
+        "name": "notein",
+        "digest": "Receive MIDI note messages"
+      },
+      "lessthaneq.maxref.xml": {
+        "name": "<=",
+        "digest": "Compare numbers as less than or equal to"
+      },
+      "fswap.maxref.xml": {
+        "name": "swap",
+        "digest": "Swap position of two numbers"
+      },
+      "shiftright.maxref.xml": {
+        "name": ">>",
+        "digest": "Bit shift to the right"
+      },
+      "bpatcher.maxref.xml": {
+        "name": "bpatcher",
+        "digest": "Embed a subpatch with a visible UI"
+      },
+      "touchin.maxref.xml": {
+        "name": "touchin",
+        "digest": "Receive MIDI aftertouch values"
+      },
+      "times.maxref.xml": {
+        "name": "*",
+        "digest": "Multiply two numbers"
+      },
+      "sysexin.maxref.xml": {
+        "name": "sysexin",
+        "digest": "Receive MIDI system exclusive messages"
+      },
+      "shiftleft.maxref.xml": {
+        "name": "<<",
+        "digest": "Bit shift to the left"
+      },
+      "div.maxref.xml": {
+        "name": "/",
+        "digest": "Divide two numbers"
+      },
+      "lessthan.maxref.xml": {
+        "name": "<",
+        "digest": "Compare numbers for less than condition"
+      },
+      "pgmout.maxref.xml": {
+        "name": "pgmout",
+        "digest": "Send MIDI program changes"
+      },
+      "bendin.maxref.xml": {
+        "name": "bendin",
+        "digest": "Output MIDI pitch bend values"
+      },
+      "preset.maxref.xml": {
+        "name": "preset",
+        "digest": "Store and recall settings"
+      }
+    },
+    "msp-ref": {
+      "tapout~.maxref.xml": {
+        "name": "tapout~",
+        "digest": "Output from a delay line"
+      },
+      "svf~.maxref.xml": {
+        "name": "svf~",
+        "digest": "State-variable filter with simultaneous outputs"
+      },
+      "record~.maxref.xml": {
+        "name": "record~",
+        "digest": "Record sound into a buffer"
+      },
+      "rate~.maxref.xml": {
+        "name": "rate~",
+        "digest": "Time-scale the output of a phasor~"
+      },
+      "polybuffer~.maxref.xml": {
+        "name": "polybuffer~",
+        "digest": "Manage multiple buffer~ objects"
+      },
+      "plugreceive~.maxref.xml": {
+        "name": "plugreceive~",
+        "digest": "Receive audio from another plug-in"
+      },
+      "onepole~.maxref.xml": {
+        "name": "onepole~",
+        "digest": "Single-pole lowpass filter"
+      },
+      "average~.maxref.xml": {
+        "name": "average~",
+        "digest": "Multi-mode signal average"
+      },
+      "biquad~.maxref.xml": {
+        "name": "biquad~",
+        "digest": "Two-pole, two-zero filter"
+      },
+      "levelmeter~.maxref.xml": {
+        "name": "levelmeter~",
+        "digest": "Visual RMS level indicator"
+      },
+      "fffb~.maxref.xml": {
+        "name": "fffb~",
+        "digest": "Fast fixed filter bank"
+      },
+      "hostcontrol~.maxref.xml": {
+        "name": "hostcontrol~",
+        "digest": "Control a ReWire host's transport"
+      },
+      "framedelta~.maxref.xml": {
+        "name": "framedelta~",
+        "digest": "Compute phase deviation between successive FFT frames"
+      },
+      "send~.maxref.xml": {
+        "name": "send~",
+        "digest": "Send signals without patch cords"
+      },
+      "round~.maxref.xml": {
+        "name": "round~",
+        "digest": "Round an input signal value"
+      },
+      "rminus~.maxref.xml": {
+        "name": "!-~",
+        "digest": "Signal subtraction (inlets reversed)"
+      },
+      "pong~.maxref.xml": {
+        "name": "pong~",
+        "digest": "Variable range signal folding"
+      },
+      "plot~.maxref.xml": {
+        "name": "plot~",
+        "digest": "Visualize sets of data on a two-dimensional graph"
+      },
+      "number~.maxref.xml": {
+        "name": "number~",
+        "digest": "Signal monitor and constant generator"
+      },
+      "edge~.maxref.xml": {
+        "name": "edge~",
+        "digest": "Detect logical signal transitions"
+      },
+      "2d.wave~.maxref.xml": {
+        "name": "2d.wave~",
+        "digest": "Two-dimensional wavetable"
+      },
+      "cycle~.maxref.xml": {
+        "name": "cycle~",
+        "digest": "Sinusoidal oscillator"
+      },
+      "cos~.maxref.xml": {
+        "name": "cos~",
+        "digest": "Signal cosine function (0-1 range)"
+      },
+      "gen~.maxref.xml": {
+        "name": "gen~",
+        "digest": "Generate native audio signal processing routines"
+      },
+      "adoutput~.maxref.xml": {
+        "name": "adoutput~",
+        "digest": "Access audio driver output channel"
+      },
+      "buffir~.maxref.xml": {
+        "name": "buffir~",
+        "digest": "buffer-based FIR filter"
+      },
+      "fzero~.maxref.xml": {
+        "name": "fzero~",
+        "digest": "Fundamental frequency estimator"
+      },
+      "sah~.maxref.xml": {
+        "name": "sah~",
+        "digest": "Sample and hold a signal according to a trigger"
+      },
+      "poke~.maxref.xml": {
+        "name": "poke~",
+        "digest": "Write sample values to a buffer by index"
+      },
+      "pfft~.maxref.xml": {
+        "name": "pfft~",
+        "digest": "Spectral processing manager for patchers"
+      },
+      "waveform~.maxref.xml": {
+        "name": "waveform~",
+        "digest": "buffer~ viewer and editor"
+      },
+      "sig~.maxref.xml": {
+        "name": "sig~",
+        "digest": "Convert numbers into audio signals"
+      },
+      "bitxor~.maxref.xml": {
+        "name": "bitxor~",
+        "digest": "Bitwise exclusive-or-operation of floating point signals"
+      },
+      "zigzag~.maxref.xml": {
+        "name": "zigzag~",
+        "digest": "Linked list function editor"
+      },
+      "zerox~.maxref.xml": {
+        "name": "zerox~",
+        "digest": "Detect zero crossings"
+      },
+      "thispoly~.maxref.xml": {
+        "name": "thispoly~",
+        "digest": "Control poly~ voice allocation and muting"
+      },
+      "spike~.maxref.xml": {
+        "name": "spike~",
+        "digest": "Report intervals of zero to non-zero transitions"
+      },
+      "plugsync~.maxref.xml": {
+        "name": "plugsync~",
+        "digest": "Report host synchronization information"
+      },
+      "freqshift~.maxref.xml": {
+        "name": "freqshift~",
+        "digest": "Time-domain frequency shifter"
+      },
+      "hostsync~.maxref.xml": {
+        "name": "hostsync~",
+        "digest": "Get transport control info from a ReWire host"
+      },
+      "sinx~.maxref.xml": {
+        "name": "sinx~",
+        "digest": "Signal sine function"
+      },
+      "sinh~.maxref.xml": {
+        "name": "sinh~",
+        "digest": "Signal hyperbolic sine function"
+      },
+      "phaseshift~.maxref.xml": {
+        "name": "phaseshift~",
+        "digest": "Distort the phase of a signal"
+      },
+      "mtof~.maxref.xml": {
+        "name": "mtof~",
+        "digest": "Convert a MIDI note number to frequency at signal rate"
+      },
+      "degrade~.maxref.xml": {
+        "name": "degrade~",
+        "digest": "Signal quality reducer"
+      },
+      "bitshift~.maxref.xml": {
+        "name": "bitshift~",
+        "digest": "Bit shifting for floating point signals"
+      },
+      "slide~.maxref.xml": {
+        "name": "slide~",
+        "digest": "Filter a signal logarithmically"
+      },
+      "sfplay~.maxref.xml": {
+        "name": "sfplay~",
+        "digest": "Play audio file from disk"
+      },
+      "rampsmooth~.maxref.xml": {
+        "name": "rampsmooth~",
+        "digest": "Smooth an incoming signal"
+      },
+      "plusequals~.maxref.xml": {
+        "name": "+=~",
+        "digest": "Signal accumulator"
+      },
+      "mstosamps~.maxref.xml": {
+        "name": "mstosamps~",
+        "digest": "Convert milliseconds to samples"
+      },
+      "gain~.maxref.xml": {
+        "name": "gain~",
+        "digest": "Exponential scaling volume slider"
+      },
+      "omx.5band~.maxref.xml": {
+        "name": "omx.5band~",
+        "digest": "OctiMax 5-band Compressor"
+      },
+      "reson~.maxref.xml": {
+        "name": "reson~",
+        "digest": "Resonant bandpass filter"
+      },
+      "groove~.maxref.xml": {
+        "name": "groove~",
+        "digest": "Variable-rate looping sample playback"
+      },
+      "ezadc~.maxref.xml": {
+        "name": "ezadc~",
+        "digest": "Audio input and on/off button"
+      },
+      "fft~.maxref.xml": {
+        "name": "fft~",
+        "digest": "Fast Fourier transform"
+      },
+      "zplane~.maxref.xml": {
+        "name": "zplane~",
+        "digest": "Graph filter poles and zeros on the Z-plane"
+      },
+      "triangle~.maxref.xml": {
+        "name": "triangle~",
+        "digest": "Triangle/ramp wavetable"
+      },
+      "train~.maxref.xml": {
+        "name": "train~",
+        "digest": "Pulse train generator"
+      },
+      "sync~.maxref.xml": {
+        "name": "sync~",
+        "digest": "Synchronize MSP with an external source"
+      },
+      "fftout~.maxref.xml": {
+        "name": "fftout~",
+        "digest": "Output for a patcher loaded by pfft~"
+      },
+      "hilbert~.maxref.xml": {
+        "name": "hilbert~",
+        "digest": "Phase quadrature filter"
+      },
+      "capture~.maxref.xml": {
+        "name": "capture~",
+        "digest": "Store a signal to view as text"
+      },
+      "tanh~.maxref.xml": {
+        "name": "tanh~",
+        "digest": "Signal hyperbolic tangent function"
+      },
+      "kink~.maxref.xml": {
+        "name": "kink~",
+        "digest": "Distort a sawtooth waveform"
+      },
+      "equals~.maxref.xml": {
+        "name": "==~",
+        "digest": "Is equal to, comparison of two signals"
+      },
+      "atan~.maxref.xml": {
+        "name": "atan~",
+        "digest": "Signal arc-tangent function"
+      },
+      "gizmo~.maxref.xml": {
+        "name": "gizmo~",
+        "digest": "Frequency-domain pitch shifter for pfft~"
+      },
+      "maximum~.maxref.xml": {
+        "name": "maximum~",
+        "digest": "Compare two signals, output the maximum"
+      },
+      "snapshot~.maxref.xml": {
+        "name": "snapshot~",
+        "digest": "Convert signal values to numbers"
+      },
+      "rect~.maxref.xml": {
+        "name": "rect~",
+        "digest": "Antialiased rectangular (pulse) oscillator"
+      },
+      "oscbank~.maxref.xml": {
+        "name": "oscbank~",
+        "digest": "Non-interpolating oscillator bank"
+      },
+      "omx.peaklim~.maxref.xml": {
+        "name": "omx.peaklim~",
+        "digest": "OctiMax Peak Limiter"
+      },
+      "allpass~.maxref.xml": {
+        "name": "allpass~",
+        "digest": "Apply an allpass filter effect"
+      },
+      "frameaccum~.maxref.xml": {
+        "name": "frameaccum~",
+        "digest": "Compute &quot;running phase&quot; of successive phase deviation frames"
+      },
+      "saw~.maxref.xml": {
+        "name": "saw~",
+        "digest": "Antialiased sawtooth oscillator"
+      },
+      "techno~.maxref.xml": {
+        "name": "techno~",
+        "digest": "Signal-driven step sequencer"
+      },
+      "pow~.maxref.xml": {
+        "name": "pow~",
+        "digest": "Signal power function"
+      },
+      "plugphasor~.maxref.xml": {
+        "name": "plugphasor~",
+        "digest": "Host-synchronized sawtooth wave"
+      },
+      "cosh~.maxref.xml": {
+        "name": "cosh~",
+        "digest": "Signal hyperbolic cosine function"
+      },
+      "matrix~.maxref.xml": {
+        "name": "matrix~",
+        "digest": "Signal routing and mixing matrix"
+      },
+      "gate~.maxref.xml": {
+        "name": "gate~",
+        "digest": "Route a signal to one of several outlets"
+      },
+      "buffer~.maxref.xml": {
+        "name": "buffer~",
+        "digest": "Store audio samples"
+      },
+      "minimum~.maxref.xml": {
+        "name": "minimum~",
+        "digest": "Compare two signals, output the minimum"
+      },
+      "receive~.maxref.xml": {
+        "name": "receive~",
+        "digest": "Signals can be received from any loaded patcher, without patch cords"
+      },
+      "rand~.maxref.xml": {
+        "name": "rand~",
+        "digest": "Band-limited random signal"
+      },
+      "bitor~.maxref.xml": {
+        "name": "bitor~",
+        "digest": "Bitwise or-operation of floating point signals"
+      },
+      "adstatus.maxref.xml": {
+        "name": "adstatus",
+        "digest": "Report and control audio driver settings"
+      },
+      "cosx~.maxref.xml": {
+        "name": "cosx~",
+        "digest": "Signal cosine function"
+      },
+      "seq~.maxref.xml": {
+        "name": "seq~",
+        "digest": "Signal-driven event sequencer"
+      },
+      "plugout~.maxref.xml": {
+        "name": "plugout~",
+        "digest": "Define a Max for Live Device's audio outputs"
+      },
+      "peakamp~.maxref.xml": {
+        "name": "peakamp~",
+        "digest": "Report the maximum amplitude of a signal"
+      },
+      "log~.maxref.xml": {
+        "name": "log~",
+        "digest": "Logarithm of a signal"
+      },
+      "hostphasor~.maxref.xml": {
+        "name": "hostphasor~",
+        "digest": "ReWire host synchronization source"
+      },
+      "clip~.maxref.xml": {
+        "name": "clip~",
+        "digest": "Limit signal amplitude"
+      },
+      "fftin~.maxref.xml": {
+        "name": "fftin~",
+        "digest": "Input for a patcher loaded by pfft~"
+      },
+      "modulo~.maxref.xml": {
+        "name": "%~",
+        "digest": "Divide two signals, output the remainder"
+      },
+      "downsamp~.maxref.xml": {
+        "name": "downsamp~",
+        "digest": "Downsample a signal"
+      },
+      "times~.maxref.xml": {
+        "name": "*~",
+        "digest": "Multiply two signals"
+      },
+      "tapin~.maxref.xml": {
+        "name": "tapin~",
+        "digest": "Input to a delay line"
+      },
+      "dsptime~.maxref.xml": {
+        "name": "dsptime~",
+        "digest": "Report milliseconds of audio processed"
+      },
+      "wave~.maxref.xml": {
+        "name": "wave~",
+        "digest": "Variable size wavetable"
+      },
+      "sflist~.maxref.xml": {
+        "name": "sflist~",
+        "digest": "Store audio file cues"
+      },
+      "dac~.maxref.xml": {
+        "name": "dac~",
+        "digest": "Audio output and on/off"
+      },
+      "adsr~.maxref.xml": {
+        "name": "adsr~",
+        "digest": "ADSR envelope generator"
+      },
+      "vst~.maxref.xml": {
+        "name": "vst~",
+        "digest": "Host VST and Audio Unit plug-ins"
+      },
+      "plus~.maxref.xml": {
+        "name": "+~",
+        "digest": "Add signals"
+      },
+      "plugin~.maxref.xml": {
+        "name": "plugin~",
+        "digest": "Define a Max for Live device's audio inputs"
+      },
+      "overdrive~.maxref.xml": {
+        "name": "overdrive~",
+        "digest": "Soft-clipping signal distortion"
+      },
+      "asin~.maxref.xml": {
+        "name": "asin~",
+        "digest": "Signal arc-sine function"
+      },
+      "lessthan~.maxref.xml": {
+        "name": "<~",
+        "digest": "Is less than, comparison of two signals"
+      },
+      "info~.maxref.xml": {
+        "name": "info~",
+        "digest": "Report information about a sample"
+      },
+      "trapezoid~.maxref.xml": {
+        "name": "trapezoid~",
+        "digest": "Trapezoidal wavetable"
+      },
+      "thresh~.maxref.xml": {
+        "name": "thresh~",
+        "digest": "Detect signal above a set level"
+      },
+      "selector~.maxref.xml": {
+        "name": "selector~",
+        "digest": "Assign one of several inputs to an outlet"
+      },
+      "line~.maxref.xml": {
+        "name": "line~",
+        "digest": "Linear ramp generator"
+      },
+      "asinh~.maxref.xml": {
+        "name": "asinh~",
+        "digest": "Signal hyperbolic arc-sine function"
+      },
+      "trunc~.maxref.xml": {
+        "name": "trunc~",
+        "digest": "Truncate fractional signal values"
+      },
+      "sfinfo~.maxref.xml": {
+        "name": "sfinfo~",
+        "digest": "Report audio file information"
+      },
+      "scope~.maxref.xml": {
+        "name": "scope~",
+        "digest": "Visualize an audio signal"
+      },
+      "out.maxref.xml": {
+        "name": "out",
+        "digest": "Message output for a patcher loaded by poly~ or pfft~"
+      },
+      "acos~.maxref.xml": {
+        "name": "acos~",
+        "digest": "Signal arc-cosine function"
+      },
+      "ioscbank~.maxref.xml": {
+        "name": "ioscbank~",
+        "digest": "Interpolating oscillator bank"
+      },
+      "filterdesign.maxref.xml": {
+        "name": "filterdesign",
+        "digest": "Create a filter specification"
+      },
+      "delta~.maxref.xml": {
+        "name": "delta~",
+        "digest": "Signal of sample differences"
+      },
+      "tanx~.maxref.xml": {
+        "name": "tanx~",
+        "digest": "Signal tangent function"
+      },
+      "rdiv~.maxref.xml": {
+        "name": "!/~",
+        "digest": "Signal division (inlets reversed)"
+      },
+      "greaterthan~.maxref.xml": {
+        "name": ">~",
+        "digest": "Is greater than, comparison of two signals"
+      },
+      "frameaverage~.maxref.xml": {
+        "name": "frameaverage~",
+        "digest": "Perform a piece-wise running averaging of consecutive frames of audio."
+      },
+      "teeth~.maxref.xml": {
+        "name": "teeth~",
+        "digest": "Comb filter with feedforward and feedback delay control"
+      },
+      "spectroscope~.maxref.xml": {
+        "name": "spectroscope~",
+        "digest": "Signal spectrogram or sonogram"
+      },
+      "pink~.maxref.xml": {
+        "name": "pink~",
+        "digest": "Pink noise generator"
+      },
+      "fftinfo~.maxref.xml": {
+        "name": "fftinfo~",
+        "digest": "Report information about a patcher loaded by pfft~"
+      },
+      "deltaclip~.maxref.xml": {
+        "name": "deltaclip~",
+        "digest": "Limit changes in signal amplitude"
+      },
+      "mute~.maxref.xml": {
+        "name": "mute~",
+        "digest": "Disable signal processing in a subpatch"
+      },
+      "lessthaneq~.maxref.xml": {
+        "name": "<=~",
+        "digest": "Is less than or equal to, comparison of two signals"
+      },
+      "atanh~.maxref.xml": {
+        "name": "atanh~",
+        "digest": "Signal hyperbolic arc-tangent function"
+      },
+      "atan2~.maxref.xml": {
+        "name": "atan2~",
+        "digest": "Signal arc-tangent function (two variables)"
+      },
+      "vectral~.maxref.xml": {
+        "name": "vectral~",
+        "digest": "Vector-based envelope follower"
+      },
+      "scale~.maxref.xml": {
+        "name": "scale~",
+        "digest": "Map an input range of signal values to an output range"
+      },
+      "rewire~.maxref.xml": {
+        "name": "rewire~",
+        "digest": "Host ReWire devices"
+      },
+      "poltocar~.maxref.xml": {
+        "name": "poltocar~",
+        "digest": "Signal Polar to Cartesian coordinate conversion"
+      },
+      "ftom~.maxref.xml": {
+        "name": "ftom~",
+        "digest": "Convert frequency to MIDI note numbers at signal-rate"
+      },
+      "fbinshift~.maxref.xml": {
+        "name": "fbinshift~",
+        "digest": "Frequency domain frequency shifter for pfft~"
+      },
+      "minus~.maxref.xml": {
+        "name": "-~",
+        "digest": "Signal subtraction"
+      },
+      "stutter~.maxref.xml": {
+        "name": "stutter~",
+        "digest": "Signal capture buffer for granular playback"
+      },
+      "sqrt~.maxref.xml": {
+        "name": "sqrt~",
+        "digest": "Square root of a signal"
+      },
+      "phasewrap~.maxref.xml": {
+        "name": "phasewrap~",
+        "digest": "Wrap a signal between π and -π"
+      },
+      "out~.maxref.xml": {
+        "name": "out~",
+        "digest": "Signal output for a patcher loaded by poly~"
+      },
+      "lores~.maxref.xml": {
+        "name": "lores~",
+        "digest": "Resonant lowpass filter"
+      },
+      "bitand~.maxref.xml": {
+        "name": "bitand~",
+        "digest": "Bitwise and-operation of floating point signals"
+      },
+      "ezdac~.maxref.xml": {
+        "name": "ezdac~",
+        "digest": "Audio output and on/off button"
+      },
+      "mxj~.maxref.xml": {
+        "name": "mxj~",
+        "digest": "Java in MSP"
+      },
+      "begin~.maxref.xml": {
+        "name": "begin~",
+        "digest": "Define a switchable part of a signal network"
+      },
+      "abs~.maxref.xml": {
+        "name": "abs~",
+        "digest": "Absolute value of a signal"
+      },
+      "notequals~.maxref.xml": {
+        "name": "!=~",
+        "digest": "Not equal to, comparison of two signals"
+      },
+      "change~.maxref.xml": {
+        "name": "change~",
+        "digest": "Report signal direction"
+      },
+      "sfrecord~.maxref.xml": {
+        "name": "sfrecord~",
+        "digest": "Record to audio file on disk"
+      },
+      "phasor~.maxref.xml": {
+        "name": "phasor~",
+        "digest": "Generate sawtooth signals"
+      },
+      "atodb~.maxref.xml": {
+        "name": "atodb~",
+        "digest": "Convert linear amplitude to a signal-rate deciBel value"
+      },
+      "filtergraph~.maxref.xml": {
+        "name": "filtergraph~",
+        "digest": "Edit a filter interactively"
+      },
+      "adc~.maxref.xml": {
+        "name": "adc~",
+        "digest": "Audio input and on/off"
+      },
+      "minmax~.maxref.xml": {
+        "name": "minmax~",
+        "digest": "Compute minimum/maximum signal values"
+      },
+      "in.maxref.xml": {
+        "name": "in",
+        "digest": "Message input for a patcher loaded by poly~ or pfft~"
+      },
+      "cascade~.maxref.xml": {
+        "name": "cascade~",
+        "digest": "Cascaded series of biquad filters"
+      },
+      "in~.maxref.xml": {
+        "name": "in~",
+        "digest": "Signal input for a patcher loaded by poly~"
+      },
+      "cross~.maxref.xml": {
+        "name": "cross~",
+        "digest": "Third-order crossover filter"
+      },
+      "sampstoms~.maxref.xml": {
+        "name": "sampstoms~",
+        "digest": "Convert time from samples to milliseconds"
+      },
+      "plugsend~.maxref.xml": {
+        "name": "plugsend~",
+        "digest": "Send audio to another plug-in"
+      },
+      "delay~.maxref.xml": {
+        "name": "delay~",
+        "digest": "Delay a signal"
+      },
+      "acosh~.maxref.xml": {
+        "name": "acosh~",
+        "digest": "Signal hyperbolic arc-cosine function"
+      },
+      "curve~.maxref.xml": {
+        "name": "curve~",
+        "digest": "Exponential ramp generator"
+      },
+      "pass~.maxref.xml": {
+        "name": "pass~",
+        "digest": "Eliminate noise in a muted subpatcher"
+      },
+      "noise~.maxref.xml": {
+        "name": "noise~",
+        "digest": "Generate white noise"
+      },
+      "count~.maxref.xml": {
+        "name": "count~",
+        "digest": "Count samples elapsed"
+      },
+      "lookup~.maxref.xml": {
+        "name": "lookup~",
+        "digest": "Transfer function lookup table"
+      },
+      "tri~.maxref.xml": {
+        "name": "tri~",
+        "digest": "Antialiased triangular oscillator"
+      },
+      "ifft~.maxref.xml": {
+        "name": "ifft~",
+        "digest": "Inverse fast Fourier transform"
+      },
+      "meter~.maxref.xml": {
+        "name": "meter~",
+        "digest": "Visual peak level indicator"
+      },
+      "dbtoa~.maxref.xml": {
+        "name": "dbtoa~",
+        "digest": "Convert a deciBel value to linear amplitude at signal rate"
+      },
+      "div~.maxref.xml": {
+        "name": "/~",
+        "digest": "Divide one signal by another"
+      },
+      "play~.maxref.xml": {
+        "name": "play~",
+        "digest": "Position-based sample playback"
+      },
+      "filterdetail.maxref.xml": {
+        "name": "filterdetail",
+        "digest": "Detail the characteristics of a filter"
+      },
+      "omx.4band~.maxref.xml": {
+        "name": "omx.4band~",
+        "digest": "OctiMax 4-band Compressor"
+      },
+      "avg~.maxref.xml": {
+        "name": "avg~",
+        "digest": "Signal average"
+      },
+      "click~.maxref.xml": {
+        "name": "click~",
+        "digest": "Create an impulse"
+      },
+      "index~.maxref.xml": {
+        "name": "index~",
+        "digest": "Read from a buffer~ with no interpolation"
+      },
+      "peek~.maxref.xml": {
+        "name": "peek~",
+        "digest": "Read and write sample values"
+      },
+      "comb~.maxref.xml": {
+        "name": "comb~",
+        "digest": "Apply a comb filter effect"
+      },
+      "cartopol~.maxref.xml": {
+        "name": "cartopol~",
+        "digest": "Signal Cartesian to Polar coordinate conversion"
+      },
+      "framesmooth~.maxref.xml": {
+        "name": "framesmooth~",
+        "digest": "Perform averaging of consecutive samples, grouped into frames, without blurring across the frames."
+      },
+      "bitnot~.maxref.xml": {
+        "name": "bitnot~",
+        "digest": "Bitwise inversion of a floating point signal"
+      },
+      "poly~.maxref.xml": {
+        "name": "poly~",
+        "digest": "Manage polyphony/DSP for patchers"
+      },
+      "bitsafe~.maxref.xml": {
+        "name": "bitsafe~",
+        "digest": "Replace NaN and infinite signal values with 0"
+      },
+      "greaterthaneq~.maxref.xml": {
+        "name": ">=~",
+        "digest": "Is greater than or equal to, comparison of two signals"
+      },
+      "omx.comp~.maxref.xml": {
+        "name": "omx.comp~",
+        "digest": "OctiMax Compressor"
+      },
+      "filtercoeff~.maxref.xml": {
+        "name": "filtercoeff~",
+        "digest": "Signal-rate filter coefficient generator"
+      },
+      "normalize~.maxref.xml": {
+        "name": "normalize~",
+        "digest": "Scale on the basis of maximum amplitude"
+      },
+      "dspstate~.maxref.xml": {
+        "name": "dspstate~",
+        "digest": "Report current DSP settings"
+      }
+    },
+    "m4l-ref": {
+      "live.menu.maxref.xml": {
+        "name": "live.menu",
+        "digest": "Pop-up menu"
+      },
+      "chucker~.maxref.xml": {
+        "name": "chucker~",
+        "digest": "Segment audio and reorder it on looped playback"
+      },
+      "paraminspector.maxref.xml": {
+        "name": "paraminspector",
+        "digest": "TEXT_HERE"
+      },
+      "midiselect.maxref.xml": {
+        "name": "midiselect",
+        "digest": "Select and interpret raw MIDI data"
+      },
+      "live.slider.maxref.xml": {
+        "name": "live.slider",
+        "digest": "Output numbers by moving a slider onscreen"
+      },
+      "live.object.maxref.xml": {
+        "name": "live.object",
+        "digest": "Perform operations on Live objects"
+      },
+      "live.thisdevice.maxref.xml": {
+        "name": "live.thisdevice",
+        "digest": "Send a bang automatically when a Max Device is loaded, report device state"
+      },
+      "live.step.maxref.xml": {
+        "name": "live.step",
+        "digest": "Step Sequencer UI object"
+      },
+      "live.line.maxref.xml": {
+        "name": "live.line",
+        "digest": "Straight line"
+      },
+      "live.colors.maxref.xml": {
+        "name": "live.colors",
+        "digest": "Get the colors of the Live Skin"
+      },
+      "ddg.mono.maxref.xml": {
+        "name": "ddg.mono",
+        "digest": "Monophonic Synth Controller for Virtual Synths"
+      },
+      "cverb~.maxref.xml": {
+        "name": "cverb~",
+        "digest": "A simple monaural reverberator"
+      },
+      "live.meter~.maxref.xml": {
+        "name": "live.meter~",
+        "digest": "Live-style visual peak level indicator"
+      },
+      "live.grid.maxref.xml": {
+        "name": "live.grid",
+        "digest": "A UI grid of steps, with constraints and directions"
+      },
+      "live.dial.maxref.xml": {
+        "name": "live.dial",
+        "digest": "Output numbers by moving a dial onscreen"
+      },
+      "live.toggle.maxref.xml": {
+        "name": "live.toggle",
+        "digest": "Switch between off and on (0/1)"
+      },
+      "live.remote~.maxref.xml": {
+        "name": "live.remote~",
+        "digest": "Realtime control of device parameters"
+      },
+      "live.button.maxref.xml": {
+        "name": "live.button",
+        "digest": "Flash on any message, send a bang"
+      },
+      "live.path.maxref.xml": {
+        "name": "live.path",
+        "digest": "Navigate to objects in the Live application"
+      },
+      "live.gain~.maxref.xml": {
+        "name": "live.gain~",
+        "digest": "Decibel volume slider and monitor"
+      },
+      "live.param~.maxref.xml": {
+        "name": "live.param~",
+        "digest": "Generate an MSP signal from a parameter value."
+      },
+      "live.arrows.maxref.xml": {
+        "name": "live.arrows",
+        "digest": "Vectorized arrow(s) user interface object"
+      },
+      "live.tab.maxref.xml": {
+        "name": "live.tab",
+        "digest": "A user interface tab/multiple button object"
+      },
+      "live.numbox.maxref.xml": {
+        "name": "live.numbox",
+        "digest": "Display and output a number"
+      },
+      "parameters.maxref.xml": {
+        "name": "Parameter Properties",
+        "digest": "Properties common to parameter-aware objects."
+      },
+      "live.text.maxref.xml": {
+        "name": "live.text",
+        "digest": "A user interface button/toggle"
+      },
+      "live.drop.maxref.xml": {
+        "name": "live.drop",
+        "digest": "Define a region for dragging and dropping a file"
+      },
+      "live.observer.maxref.xml": {
+        "name": "live.observer",
+        "digest": "Monitor changes in Live objects"
+      }
+    }
+  },
+  "tutorials": {
+    "msp-tut": {
+      "msphowmspworks.maxtut.xml": {
+        "name": "MSP: How MSP Works",
+        "title": "How MSP Works - Max Patches and the MSP Signal Network",
+        "category": "Topics"
+      },
+      "mspchapter20.maxtut.xml": {
+        "name": "MSP Tutorial 20: MIDI Sampler Control",
+        "indexdigest": "MIDI Sampler Control",
+        "title": "MSP Tutorial 20",
+        "category": "Tutorials"
+      },
+      "mspchapter16.maxtut.xml": {
+        "name": "MSP Tutorial 16: Record and Play Audio Files",
+        "indexdigest": "Record and Play Audio Files",
+        "title": "MSP Tutorial 16",
+        "category": "Tutorials"
+      },
+      "mspchapter13.maxtut.xml": {
+        "name": "MSP Tutorial 13: Recording and Playback",
+        "indexdigest": "Recording and Playback",
+        "title": "MSP Tutorial 13",
+        "category": "Tutorials"
+      },
+      "msp_compress_07.maxtut.xml": {
+        "name": "MSP Compression Tutorial 7: Keying",
+        "indexdigest": "Keying",
+        "title": "MSP Compression Tutorial 7",
+        "category": "Compression Tutorials"
+      },
+      "msp_compress_01.maxtut.xml": {
+        "name": "MSP Compression Tutorial 1: Peak Limiting",
+        "indexdigest": "Peak Limiting",
+        "title": "MSP Compression Tutorial 1",
+        "category": "Compression Tutorials"
+      },
+      "mspchapter25.maxtut.xml": {
+        "name": "MSP Tutorial 25: Using the FFT",
+        "indexdigest": "Using the FFT",
+        "title": "MSP Tutorial 25",
+        "category": "Tutorials"
+      },
+      "mspchapter22.maxtut.xml": {
+        "name": "MSP Tutorial 22: MIDI Panning",
+        "indexdigest": "MIDI Panning",
+        "title": "MSP Tutorial 22",
+        "category": "Tutorials"
+      },
+      "mspchapter05.maxtut.xml": {
+        "name": "MSP Tutorial 5: Turning Signals On and Off",
+        "indexdigest": "Turning Signals On and Off",
+        "title": "MSP Tutorial 5",
+        "category": "Tutorials"
+      },
+      "msp_compress_02.maxtut.xml": {
+        "name": "MSP Compression Tutorial 2: Basic Compression",
+        "indexdigest": "Basic Compression",
+        "title": "MSP Compression Tutorial 2",
+        "category": "Compression Tutorials"
+      },
+      "mspchapter30.maxtut.xml": {
+        "name": "MSP Tutorial 30: Chorus",
+        "indexdigest": "Chorus",
+        "title": "MSP Tutorial 30",
+        "category": "Tutorials"
+      },
+      "mspchapter27.maxtut.xml": {
+        "name": "MSP Tutorial 27: Delay Lines",
+        "indexdigest": "Delay Lines",
+        "title": "MSP Tutorial 27",
+        "category": "Tutorials"
+      },
+      "mspchapter24.maxtut.xml": {
+        "name": "MSP Tutorial 24: Oscilloscope",
+        "indexdigest": "Oscilloscope",
+        "title": "MSP Tutorial 24",
+        "category": "Tutorials"
+      },
+      "mspchapter10.maxtut.xml": {
+        "name": "MSP Tutorial 10: Vibrato and FM",
+        "indexdigest": "Vibrato and FM",
+        "title": "MSP Tutorial 10",
+        "category": "Tutorials"
+      },
+      "mspchapter09.maxtut.xml": {
+        "name": "MSP Tutorial 9: Amplitude Modulation",
+        "indexdigest": "Amplitude Modulation",
+        "title": "MSP Tutorial 9",
+        "category": "Tutorials"
+      },
+      "msp_compress_08.maxtut.xml": {
+        "name": "MSP Compression Tutorial 8: Microsounds",
+        "indexdigest": "Microsounds",
+        "title": "MSP Compression Tutorial 8",
+        "category": "Compression Tutorials"
+      },
+      "mspchapter26.maxtut.xml": {
+        "name": "MSP Tutorial 26: Frequency Domain Signal Processing with pfft~",
+        "indexdigest": "Frequency Domain Signal Processing with pfft~",
+        "title": "MSP Tutorial 26",
+        "category": "Tutorials"
+      },
+      "mspchapter23.maxtut.xml": {
+        "name": "MSP Tutorial 23: Viewing Signal Data",
+        "indexdigest": "Viewing Signal Data",
+        "title": "MSP Tutorial 23",
+        "category": "Tutorials"
+      },
+      "mspchapter21.maxtut.xml": {
+        "name": "MSP Tutorial 21: Using the poly~ Object",
+        "indexdigest": "Using the poly~ Object",
+        "title": "MSP Tutorial 21",
+        "category": "Tutorials"
+      },
+      "msp_compress_05.maxtut.xml": {
+        "name": "MSP Compression Tutorial 5: Multiband Compression 1",
+        "indexdigest": "Multiband Compression 1",
+        "title": "MSP Compression Tutorial 5",
+        "category": "Compression Tutorials"
+      },
+      "mspdigitalaudio.maxtut.xml": {
+        "name": "MSP: How Digital Audio Works",
+        "title": "How Digital Audio Works",
+        "category": "Topics"
+      },
+      "mspchapter01.maxtut.xml": {
+        "name": "MSP Tutorial 1: Test Tone",
+        "indexdigest": "Test Tone",
+        "title": "MSP Tutorial 1",
+        "category": "Tutorials"
+      },
+      "mspaudioio.maxtut.xml": {
+        "name": "MSP: Audio Input and Output",
+        "title": "Audio I/O - Audio input and output with MSP",
+        "category": "Topics"
+      },
+      "msp_compress_06.maxtut.xml": {
+        "name": "MSP Compression Tutorial 6: Multiband Compression 2",
+        "indexdigest": "Multiband Compression 2",
+        "title": "MSP Compression Tutorial 6",
+        "category": "Compression Tutorials"
+      },
+      "mspchapter31.maxtut.xml": {
+        "name": "MSP Tutorial 31: Comb Filter",
+        "indexdigest": "Comb Filter",
+        "title": "MSP Tutorial 31",
+        "category": "Tutorials"
+      },
+      "mspchapter18.maxtut.xml": {
+        "name": "MSP Tutorial 18: Mapping MIDI to MSP",
+        "indexdigest": "Mapping MIDI to MSP",
+        "title": "MSP Tutorial 18",
+        "category": "Tutorials"
+      },
+      "mspchapter07.maxtut.xml": {
+        "name": "MSP Tutorial 7: Additive Synthesis",
+        "indexdigest": "Additive Synthesis",
+        "title": "MSP Tutorial 7",
+        "category": "Tutorials"
+      },
+      "mspchapter02.maxtut.xml": {
+        "name": "MSP Tutorial 2: Adjustable Oscillator",
+        "indexdigest": "Adjustable Oscillator",
+        "title": "MSP Tutorial 2",
+        "category": "Tutorials"
+      },
+      "msp_compress_09.maxtut.xml": {
+        "name": "MSP Compression Tutorial 9: Ducking",
+        "indexdigest": "Ducking",
+        "title": "MSP Compression Tutorial 9",
+        "category": "Compression Tutorials"
+      },
+      "mspchapter29.maxtut.xml": {
+        "name": "MSP Tutorial 29: Flanging",
+        "indexdigest": "Flanging",
+        "title": "MSP Tutorial 29",
+        "category": "Tutorials"
+      },
+      "mspchapter28.maxtut.xml": {
+        "name": "MSP Tutorial 28: Delay Lines with Feedback",
+        "indexdigest": "Delay Lines with Feedback",
+        "title": "MSP Tutorial 28",
+        "category": "Tutorials"
+      },
+      "mspchapter17.maxtut.xml": {
+        "name": "MSP Tutorial 17: Sampling Review",
+        "indexdigest": "Sampling Review",
+        "title": "MSP Tutorial 17",
+        "category": "Tutorials"
+      },
+      "msp_compress_03.maxtut.xml": {
+        "name": "MSP Compression Tutorial 3: Tweaking Compression",
+        "indexdigest": "Tweaking Compression",
+        "title": "MSP Compression Tutorial 3",
+        "category": "Compression Tutorials"
+      },
+      "mspchapter08.maxtut.xml": {
+        "name": "MSP Tutorial 8: Tremolo and Ring Modulation",
+        "indexdigest": "Tremolo and Ring Modulation",
+        "title": "MSP Tutorial 8",
+        "category": "Tutorials"
+      },
+      "mspchapter06.maxtut.xml": {
+        "name": "MSP Tutorial 6: A Review of Fundamentals",
+        "indexdigest": "A Review of Fundamentals",
+        "title": "MSP Tutorial 6",
+        "category": "Tutorials"
+      },
+      "mspchapter04.maxtut.xml": {
+        "name": "MSP Tutorial 4: Routing Signals",
+        "indexdigest": "Routing Signals",
+        "title": "MSP Tutorial 4",
+        "category": "Tutorials"
+      },
+      "mspintro.maxtut.xml": {
+        "name": "MSP: Introduction",
+        "title": "Introduction",
+        "category": "Topics"
+      },
+      "mspindex.maxtut.xml": {
+        "name": "MSP Tutorials: Table of Contents"
+      },
+      "mspchapter32.maxtut.xml": {
+        "name": "Controlling and Automating MSP"
+      },
+      "mspchapter19.maxtut.xml": {
+        "name": "MSP Tutorial 19: MIDI Synthesizer Control",
+        "indexdigest": "MIDI Synthesizer Control",
+        "title": "MSP Tutorial 19",
+        "category": "Tutorials"
+      },
+      "mspchapter14.maxtut.xml": {
+        "name": "MSP Tutorial 14: Playback with Loops",
+        "indexdigest": "Playback with Loops",
+        "title": "MSP Tutorial 14",
+        "category": "Tutorials"
+      },
+      "mspchapter12.maxtut.xml": {
+        "name": "MSP Tutorial 12: Waveshaping",
+        "indexdigest": "Waveshaping",
+        "title": "MSP Tutorial 12",
+        "category": "Tutorials"
+      },
+      "mspchapter11.maxtut.xml": {
+        "name": "MSP Tutorial 11: Frequency Modulation",
+        "indexdigest": "Frequency Modulation",
+        "title": "MSP Tutorial 11",
+        "category": "Tutorials"
+      },
+      "mspchapter03.maxtut.xml": {
+        "name": "MSP Tutorial 3: Wavetable Oscillator",
+        "indexdigest": "Wavetable Oscillator",
+        "title": "MSP Tutorial 3",
+        "category": "Tutorials"
+      },
+      "mspchapter15.maxtut.xml": {
+        "name": "MSP Tutorial 15: Variable-length Wavetable",
+        "indexdigest": "Variable-length Wavetable",
+        "title": "MSP Tutorial 15",
+        "category": "Tutorials"
+      },
+      "msp_compress_10.maxtut.xml": {
+        "name": "MSP Compression Tutorial 10: Controlling Feedback",
+        "indexdigest": "Controlling Feedback",
+        "title": "MSP Compression Tutorial 10",
+        "category": "Compression Tutorials"
+      },
+      "msp_compress_04.maxtut.xml": {
+        "name": "MSP Compression Tutorial 4: Compression on Real Instruments",
+        "indexdigest": "Compression on Real Instruments",
+        "title": "MSP Compression Tutorial 4",
+        "category": "Compression Tutorials"
+      },
+      "msp_compress_00.maxtut.xml": {
+        "name": "MSP Compression Introduction: What is Compression?",
+        "indexdigest": "What is Compression?",
+        "title": "MSP Compression Introduction",
+        "category": "Compression Tutorials"
+      }
+    },
+    "jit-tut": {
+      "jitterchapter49.maxtut.xml": {
+        "name": "Tutorial 49: Colorspaces",
+        "indexdigest": "Colorspaces",
+        "title": "Jitter Tutorial 49",
+        "category": "Tutorials"
+      },
+      "jitterchapter48.maxtut.xml": {
+        "name": "Tutorial 48: Frames of MSP signals",
+        "indexdigest": "Frames of MSP signals",
+        "title": "Jitter Tutorial 48",
+        "category": "Tutorials"
+      },
+      "jitterchapter45.maxtut.xml": {
+        "name": "Tutorial 45: Introduction to using Jitter within JavaScript",
+        "indexdigest": "Introduction to using Jitter within JavaScript",
+        "title": "Jitter Tutorial 45",
+        "category": "Tutorials"
+      },
+      "jitterchapter40.maxtut.xml": {
+        "name": "Tutorial 40: Drawing in OpenGL using jit.gl.sketch",
+        "indexdigest": "Drawing in OpenGL using jit.gl.sketch",
+        "title": "Jitter Tutorial 40",
+        "category": "Tutorials"
+      },
+      "jitterchapter52.maxtut.xml": {
+        "name": "Tutorial 52: Jitter Networking",
+        "indexdigest": "Jitter Networking",
+        "title": "Jitter Tutorial 52",
+        "category": "Tutorials"
+      },
+      "jitterchapter18.maxtut.xml": {
+        "name": "Tutorial 18: Iterative Processes and Matrix Re-Sampling",
+        "indexdigest": "Iterative Processes and Matrix Re-Sampling",
+        "title": "Jitter Tutorial 18",
+        "category": "Tutorials"
+      },
+      "jitterchapter13.maxtut.xml": {
+        "name": "Tutorial 13: Scissors and Glue",
+        "indexdigest": "Scissors and Glue",
+        "title": "Jitter Tutorial 13",
+        "category": "Tutorials"
+      },
+      "jitterappendixd.maxtut.xml": {
+        "name": "Appendix D: Building Standalone Applications with Jitter",
+        "indexdigest": "Building Standalone Applications with Jitter",
+        "title": "Appendix D",
+        "category": "Appendices"
+      },
+      "jitindex.maxtut.xml": {
+        "name": "Jitter Tutorials: Table of Contents"
+      },
+      "jitterchapter42.maxtut.xml": {
+        "name": "Tutorial 42: Slab: Data Processing on the GPU",
+        "indexdigest": "Slabs and Data Processing on the GPU",
+        "title": "Jitter Tutorial 42",
+        "category": "Tutorials"
+      },
+      "jitterchapter26.maxtut.xml": {
+        "name": "Tutorial 26: MIDI Control of Video",
+        "indexdigest": "MIDI Control of Video",
+        "title": "Jitter Tutorial 26",
+        "category": "Tutorials"
+      },
+      "jitterchapter17.maxtut.xml": {
+        "name": "Tutorial 17: Feedback Using Named Matrices",
+        "indexdigest": "Feedback Using Named Matrices",
+        "title": "Jitter Tutorial 17",
+        "category": "Tutorials"
+      },
+      "jitterchapter09.maxtut.xml": {
+        "name": "Tutorial 9: More Mixing",
+        "indexdigest": "More Mixing",
+        "title": "Jitter Tutorial 9",
+        "category": "Tutorials"
+      },
+      "jitterchapter03.maxtut.xml": {
+        "name": "Tutorial 3: Math Operations on a Matrix",
+        "indexdigest": "Math Operations on a Matrix",
+        "title": "Jitter Tutorial 3",
+        "category": "Tutorials"
+      },
+      "jitterchapter01.maxtut.xml": {
+        "name": "Tutorial 1: Playing a QuickTime Movie",
+        "indexdigest": "Playing a QuickTime Movie",
+        "title": "Jitter Tutorial 1",
+        "category": "Tutorials"
+      },
+      "jitterchapter43.maxtut.xml": {
+        "name": "Tutorial 43: A Slab of Your Very Own",
+        "indexdigest": "A Slab of Your Very Own",
+        "title": "Jitter Tutorial 43",
+        "category": "Tutorials"
+      },
+      "jitterchapter39.maxtut.xml": {
+        "name": "Tutorial 39: Spatial Mapping",
+        "indexdigest": "Spatial Mapping",
+        "title": "Jitter Tutorial 39",
+        "category": "Tutorials"
+      },
+      "jitterchapter35.maxtut.xml": {
+        "name": "Tutorial 35: Lighting and Fog",
+        "indexdigest": "Lighting and Fog",
+        "title": "Jitter Tutorial 35",
+        "category": "Tutorials"
+      },
+      "jitterchapter24.maxtut.xml": {
+        "name": "Tutorial 24: QuickTime Effects",
+        "indexdigest": "QuickTime Effects",
+        "title": "Jitter Tutorial 24",
+        "category": "Tutorials"
+      },
+      "jitterchapter46.maxtut.xml": {
+        "name": "Tutorial 46: Manipulating Matrix Data using JavaScript",
+        "indexdigest": "Manipulating Matrix Data using JavaScript",
+        "title": "Jitter Tutorial 46",
+        "category": "Tutorials"
+      },
+      "jitterchapter36.maxtut.xml": {
+        "name": "Tutorial 36: 3D Models",
+        "indexdigest": "3D Models",
+        "title": "Jitter Tutorial 36",
+        "category": "Tutorials"
+      },
+      "jitterchapter30.maxtut.xml": {
+        "name": "Tutorial 30: Drawing 3D text",
+        "indexdigest": "Drawing 3D text",
+        "title": "Jitter Tutorial 30",
+        "category": "Tutorials"
+      },
+      "jitterchapter29.maxtut.xml": {
+        "name": "Tutorial 29: Using the Alpha Channel",
+        "indexdigest": "Using the Alpha Channel",
+        "title": "Jitter Tutorial 29",
+        "category": "Tutorials"
+      },
+      "jitterchapter27.maxtut.xml": {
+        "name": "Tutorial 27: Using MSP Audio in a Jitter Matrix",
+        "indexdigest": "Using MSP Audio in a Jitter Matrix",
+        "title": "Jitter Tutorial 27",
+        "category": "Tutorials"
+      },
+      "jitterchapter25.maxtut.xml": {
+        "name": "Tutorial 25: Tracking the Position of a Color in a Movie",
+        "indexdigest": "Tracking the Position of a Color in a Movie",
+        "title": "Jitter Tutorial 25",
+        "category": "Tutorials"
+      },
+      "jitterchapter19.maxtut.xml": {
+        "name": "Tutorial 19: Recording QuickTime movies",
+        "indexdigest": "Recording QuickTime movies",
+        "title": "Jitter Tutorial 19",
+        "category": "Tutorials"
+      },
+      "jitterchapter15.maxtut.xml": {
+        "name": "Tutorial 15: Image Rotation",
+        "indexdigest": "Image Rotation",
+        "title": "Jitter Tutorial 15",
+        "category": "Tutorials"
+      },
+      "jitterchapter14.maxtut.xml": {
+        "name": "Tutorial 14: Matrix Positioning",
+        "indexdigest": "Matrix Positioning",
+        "title": "Jitter Tutorial 14",
+        "category": "Tutorials"
+      },
+      "jitterchapter47.maxtut.xml": {
+        "name": "Tutorial 47: Using Jitter Object Callbacks in JavaScript",
+        "indexdigest": "Using Jitter Object Callbacks in JavaScript",
+        "title": "Jitter Tutorial 47",
+        "category": "Tutorials"
+      },
+      "jitterappendixa.maxtut.xml": {
+        "name": "Appendix A: QuickTime Confidential",
+        "indexdigest": "QuickTime Confidential",
+        "title": "Appendix A",
+        "category": "Appendices"
+      },
+      "jitterwhatisamatrix.maxtut.xml": {
+        "name": "What is a Matrix?",
+        "indexdigest": "What is a Matrix?",
+        "title": "Jitter",
+        "category": "Topics"
+      },
+      "jitterwhatareattributes.maxtut.xml": {
+        "name": "Attributes: Editing Jitter object parameters",
+        "indexdigest": "Editing Jitter object parameters",
+        "title": "Attributes",
+        "category": "Topics"
+      },
+      "jitterchapter50.maxtut.xml": {
+        "name": "Tutorial 50: Procedural Texturing & Modeling",
+        "indexdigest": "Procedural Texturing &amp; Modeling",
+        "title": "Jitter Tutorial 50",
+        "category": "Tutorials"
+      },
+      "jitterchapter31.maxtut.xml": {
+        "name": "Tutorial 31: Rendering Destinations",
+        "indexdigest": "Rendering Destinations",
+        "title": "Jitter Tutorial 31",
+        "category": "Tutorials"
+      },
+      "jitterchapter22.maxtut.xml": {
+        "name": "Tutorial 22: Working With Video Output Components",
+        "indexdigest": "Working With Video Output Components",
+        "title": "Jitter Tutorial 22",
+        "category": "Tutorials"
+      },
+      "jitterchapter21.maxtut.xml": {
+        "name": "Tutorial 21: Working With Live Video and Audio Input",
+        "indexdigest": "Working With Live Video and Audio Input",
+        "title": "Jitter Tutorial 21",
+        "category": "Tutorials"
+      },
+      "jitterchapter11.maxtut.xml": {
+        "name": "Tutorial 11: Lists and Matrices",
+        "indexdigest": "Lists and Matrices",
+        "title": "Jitter Tutorial 11",
+        "category": "Tutorials"
+      },
+      "jitterappendixb.maxtut.xml": {
+        "name": "Appendix B: The OpenGL Matrix Format",
+        "indexdigest": "The OpenGL Matrix Format",
+        "title": "Appendix B",
+        "category": "Appendices"
+      },
+      "jitterchapter41.maxtut.xml": {
+        "name": "Tutorial 41: Shaders",
+        "indexdigest": "Shaders",
+        "title": "Jitter Tutorial 41",
+        "category": "Tutorials"
+      },
+      "jitterchapter37.maxtut.xml": {
+        "name": "Tutorial 37: Geometry Under the Hood",
+        "indexdigest": "Geometry Under the Hood",
+        "title": "Jitter Tutorial 37",
+        "category": "Tutorials"
+      },
+      "jitterchapter32.maxtut.xml": {
+        "name": "Tutorial 32: Camera View",
+        "indexdigest": "Camera View",
+        "title": "Jitter Tutorial 32",
+        "category": "Tutorials"
+      },
+      "jitterchapter28.maxtut.xml": {
+        "name": "Tutorial 28: Audio Control of Video",
+        "indexdigest": "Audio Control of Video",
+        "title": "Jitter Tutorial 28",
+        "category": "Tutorials"
+      },
+      "jitterchapter16.maxtut.xml": {
+        "name": "Tutorial 16: Using Named Jitter Matrices",
+        "indexdigest": "Using Named Jitter Matrices",
+        "title": "Jitter Tutorial 16",
+        "category": "Tutorials"
+      },
+      "jitterchapter10.maxtut.xml": {
+        "name": "Tutorial 10: Chromakeying",
+        "indexdigest": "Chromakeying",
+        "title": "Jitter Tutorial 10",
+        "category": "Tutorials"
+      },
+      "jitterchapter07.maxtut.xml": {
+        "name": "Tutorial 7: Image Level Adjustment",
+        "indexdigest": "Image Level Adjustment",
+        "title": "Jitter Tutorial 7",
+        "category": "Tutorials"
+      },
+      "jitterchapter53.maxtut.xml": {
+        "name": "Tutorial 53: Jitter Networking (part 2)",
+        "indexdigest": "Jitter Networking (part 2)",
+        "title": "Jitter Tutorial 53",
+        "category": "Tutorials"
+      },
+      "jitterchapter20.maxtut.xml": {
+        "name": "Tutorial 20: Importing and Exporting Single Matrices",
+        "indexdigest": "Importing and Exporting Single Matrices",
+        "title": "Jitter Tutorial 20",
+        "category": "Tutorials"
+      },
+      "jitterchapter04.maxtut.xml": {
+        "name": "Tutorial 4: Controlling Movie Playback",
+        "indexdigest": "Controlling Movie Playback",
+        "title": "Jitter Tutorial 4",
+        "category": "Tutorials"
+      },
+      "jitterappendixc.maxtut.xml": {
+        "name": "Appendix C: The JXS File Format",
+        "indexdigest": "The JXS File Format",
+        "title": "Appendix C",
+        "category": "Appendices"
+      },
+      "jitterchapter51.maxtut.xml": {
+        "name": "Tutorial 51: Jitter Java",
+        "indexdigest": "Jitter Java",
+        "title": "Jitter Tutorial 51",
+        "category": "Tutorials"
+      },
+      "jitterchapter34.maxtut.xml": {
+        "name": "Tutorial 34: Using Textures",
+        "indexdigest": "Using Textures",
+        "title": "Jitter Tutorial 34",
+        "category": "Tutorials"
+      },
+      "jitterchapter33.maxtut.xml": {
+        "name": "Tutorial 33: Polygon Modes, Colors and Blending",
+        "indexdigest": "Polygon Modes, Colors and Blending",
+        "title": "Jitter Tutorial 33",
+        "category": "Tutorials"
+      },
+      "jitterchapter23.maxtut.xml": {
+        "name": "Tutorial 23: Controlling Your FireWire Camera",
+        "indexdigest": "Controlling Your FireWire Camera",
+        "title": "Jitter Tutorial 23",
+        "category": "Tutorials"
+      },
+      "jitterchapter06.maxtut.xml": {
+        "name": "Tutorial 6: Adjust Color Levels",
+        "indexdigest": "Adjust Color Levels",
+        "title": "Jitter Tutorial 6",
+        "category": "Tutorials"
+      },
+      "jitterchapter02.maxtut.xml": {
+        "name": "Tutorial 2: Create a Matrix",
+        "indexdigest": "Create a Matrix",
+        "title": "Jitter Tutorial 2",
+        "category": "Tutorials"
+      },
+      "jitterchapter44.maxtut.xml": {
+        "name": "Tutorial 44: Flash Interactivity",
+        "indexdigest": "Flash Interactivity",
+        "title": "Jitter Tutorial 44",
+        "category": "Tutorials"
+      },
+      "jitterchapter38.maxtut.xml": {
+        "name": "Tutorial 38: Basic Performance Setup",
+        "indexdigest": "Basic Performance Setup",
+        "title": "Jitter Tutorial 38",
+        "category": "Tutorials"
+      },
+      "jitterchapter12.maxtut.xml": {
+        "name": "Tutorial 12: Color Lookup Tables",
+        "indexdigest": "Color Lookup Tables",
+        "title": "Jitter Tutorial 12",
+        "category": "Tutorials"
+      },
+      "jitterchapter08.maxtut.xml": {
+        "name": "Tutorial 8: Simple Mixing",
+        "indexdigest": "Simple Mixing",
+        "title": "Jitter Tutorial 8",
+        "category": "Tutorials"
+      },
+      "jitterchapter05.maxtut.xml": {
+        "name": "Tutorial 5: ARGB Color",
+        "indexdigest": "ARGB Color",
+        "title": "Jitter Tutorial 5",
+        "category": "Tutorials"
+      },
+      "jitterbibliography.maxtut.xml": {
+        "name": "Jitter Bibliography: For Your Further Reading Pleasure",
+        "indexdigest": "For Your Further Reading Pleasure",
+        "title": "Jitter Bibliography",
+        "category": "Bibliography"
+      }
+    },
+    "max-tut": {
+      "datachapter05.maxtut.xml": {
+        "name": "Max Data Tutorial 5: List Processing",
+        "indexdigest": "Manipulation of lists of data",
+        "title": "List Processing",
+        "category": "Data"
+      },
+      "basicchapter20.maxtut.xml": {
+        "name": "Max Basic Tutorial 20: Presentation Mode",
+        "indexdigest": "Creating a presentation interface for a patcher",
+        "title": "Presentation Mode",
+        "category": "Basics"
+      },
+      "maxindex.maxtut.xml": {
+        "name": "Max Tutorials: Table of Contents"
+      },
+      "datachapter01.maxtut.xml": {
+        "name": "Max Data Tutorial 1: Data Viewing",
+        "indexdigest": "Visualizing data streams",
+        "title": "Data Viewing",
+        "category": "Data"
+      },
+      "javascriptchapter04.maxtut.xml": {
+        "name": "Max JS Tutorial 4: Designing User Interfaces in JavaScript",
+        "indexdigest": "Designing graphical user interfaces with JavaScript",
+        "title": "Designing User Interfaces",
+        "category": "JavaScript"
+      },
+      "javascriptchapter01.maxtut.xml": {
+        "name": "Max JS Tutorial 1: Basic JavaScript",
+        "indexdigest": "Using JavaScript in a patcher",
+        "title": "Basic JavaScripting",
+        "category": "JavaScript"
+      },
+      "basicchapter11.maxtut.xml": {
+        "name": "Max Basic Tutorial 11: Procedural Drawing",
+        "indexdigest": "Creating procedural code",
+        "title": "Procedural Drawing",
+        "category": "Basics"
+      },
+      "basicchapter10.maxtut.xml": {
+        "name": "Max Basic Tutorial 10: Random Drawing",
+        "indexdigest": "Working with random numbers",
+        "title": "Random Drawing",
+        "category": "Basics"
+      },
+      "midichapter05.maxtut.xml": {
+        "name": "Max MIDI Tutorial 5: MIDI Advanced Sequencing",
+        "indexdigest": "Recording and manipulating MIDI sequences",
+        "title": "Advanced Sequencing",
+        "category": "MIDI"
+      },
+      "interfacechapter01.maxtut.xml": {
+        "name": "Max Interface Tutorial 1: bpatchers",
+        "indexdigest": "Working with inlined patchers",
+        "title": "Bpatchers",
+        "category": "User Interface"
+      },
+      "datachapter04.maxtut.xml": {
+        "name": "Max Data Tutorial 4: Cellblock",
+        "indexdigest": "Working with a visual spreadsheet interface",
+        "title": "Cellblock",
+        "category": "Data"
+      },
+      "basicchapter13.maxtut.xml": {
+        "name": "Max Basic Tutorial 13: Movie Sequencing",
+        "indexdigest": "Working with multiple media files",
+        "title": "Movie Sequencing",
+        "category": "Basics"
+      },
+      "pattrchapter01.maxtut.xml": {
+        "name": "Max pattr Tutorial 1: Patcher Storage",
+        "indexdigest": "Introduction to state management",
+        "title": "Pattr Basics",
+        "category": "Patcher Storage"
+      },
+      "basicchapter21.maxtut.xml": {
+        "name": "Max Basic Tutorial 21: Controlling Data Flow",
+        "indexdigest": "Routing messages",
+        "title": "Controlling Data Flow",
+        "category": "Basics"
+      },
+      "basicchapter08.maxtut.xml": {
+        "name": "Max Basic Tutorial 8: Keyboard and Mouse Input",
+        "indexdigest": "Working with standard input interfaces",
+        "title": "Keyboard and Mouse Input",
+        "category": "Basics"
+      },
+      "midichapter02.maxtut.xml": {
+        "name": "Max MIDI Tutorial 2: MIDI Note Management",
+        "indexdigest": "Generating and managing note events",
+        "title": "Note Management",
+        "category": "MIDI"
+      },
+      "datachapter02.maxtut.xml": {
+        "name": "Max Data Tutorial 2: Data Scaling",
+        "indexdigest": "Mapping and scaling numerical information",
+        "title": "Data Scaling",
+        "category": "Data"
+      },
+      "basicchapter09.maxtut.xml": {
+        "name": "Max Basic Tutorial 9: Mouse Drawing",
+        "indexdigest": "Introduction to drawing",
+        "title": "Mouse Drawing",
+        "category": "Basics"
+      },
+      "basicchapter05.maxtut.xml": {
+        "name": "Max Basic Tutorial 5: Message Order and Debugging",
+        "indexdigest": "Debugging program flow",
+        "title": "Message Ordering",
+        "category": "Basics"
+      },
+      "basicchapter04.maxtut.xml": {
+        "name": "Max Basic Tutorial 4: Metro and Toggle",
+        "indexdigest": "Creating automatic actions",
+        "title": "Metro and Toggle",
+        "category": "Basics"
+      },
+      "basicchapter03.maxtut.xml": {
+        "name": "Max Basic Tutorial 3: Numbers and Lists",
+        "indexdigest": "Types of data in Max",
+        "title": "Numbers and Lists",
+        "category": "Basics"
+      },
+      "midichapter01.maxtut.xml": {
+        "name": "Max MIDI Tutorial 1: Basic MIDI",
+        "indexdigest": "Getting MIDI input and output",
+        "title": "Basics",
+        "category": "MIDI"
+      },
+      "javascriptchapter03.maxtut.xml": {
+        "name": "Max JS Tutorial 3: JavaScript Tasks, Arguments, and Globals",
+        "indexdigest": "Scheduling events and sharing data in JavaScript",
+        "title": "Tasks, Arguments, and Globals",
+        "category": "JavaScript"
+      },
+      "communicationschapter02.maxtut.xml": {
+        "name": "Max Comm Tutorial 2: Serial Communication",
+        "indexdigest": "Using standard serial devices",
+        "title": "Serial Communication",
+        "category": "Communications"
+      },
+      "basicchapter16.maxtut.xml": {
+        "name": "Max Basic Tutorial 16: Remote Messaging",
+        "indexdigest": "Sending messages without patchcords",
+        "title": "Remote Messaging",
+        "category": "Basics"
+      },
+      "basicchapter01.maxtut.xml": {
+        "name": "Max Basic Tutorial 1: Hello",
+        "indexdigest": "Creating objects and connections",
+        "title": "Hello",
+        "category": "Basics"
+      },
+      "pattrchapter02.maxtut.xml": {
+        "name": "Max pattr Tutorial 2: Automatic Bindings and Storage",
+        "indexdigest": "Advanced patcher storage",
+        "title": "Autopattr Bindings",
+        "category": "Patcher Storage"
+      },
+      "basicchapter18.maxtut.xml": {
+        "name": "Max Basic Tutorial 18: Data Collections",
+        "indexdigest": "Using databases",
+        "title": "Data Collections",
+        "category": "Basics"
+      },
+      "basicchapter15.maxtut.xml": {
+        "name": "Max Basic Tutorial 15: Abstractions",
+        "indexdigest": "Creating libraries of re-usable code",
+        "title": "Abstractions",
+        "category": "Basics"
+      },
+      "basicchapter07.maxtut.xml": {
+        "name": "Max Basic Tutorial 7: Numerical User Interfaces",
+        "indexdigest": "Sliders and dials",
+        "title": "Numerical User Interfaces",
+        "category": "Basics"
+      },
+      "midichapter04.maxtut.xml": {
+        "name": "Max MIDI Tutorial 4: MIDI Basic Sequencing",
+        "indexdigest": "Playing back MIDI sequence data",
+        "title": "Basic Sequencing",
+        "category": "MIDI"
+      },
+      "midichapter03.maxtut.xml": {
+        "name": "Max MIDI Tutorial 3: MIDI Parsing",
+        "indexdigest": "Decoding and encoding MIDI streams",
+        "title": "Parsing",
+        "category": "MIDI"
+      },
+      "javascriptchapter02.maxtut.xml": {
+        "name": "Max JS Tutorial 2: JavaScript Scripting",
+        "indexdigest": "Using JavaScript to create patcher elements",
+        "title": "JavaScript Scripting",
+        "category": "JavaScript"
+      },
+      "basicchapter12.maxtut.xml": {
+        "name": "Max Basic Tutorial 12: Movie Playback",
+        "indexdigest": "Introduction to video playback",
+        "title": "Movie Playback",
+        "category": "Basics"
+      },
+      "interfacechapter02.maxtut.xml": {
+        "name": "Max Interface Tutorial 2: Picture UI Elements",
+        "indexdigest": "Designing user interfaces with custom image elements",
+        "title": "Picture UI Elements",
+        "category": "User Interface"
+      },
+      "datachapter03.maxtut.xml": {
+        "name": "Max Data Tutorial 3: Gesture Capture",
+        "indexdigest": "Recording and playing back captured input",
+        "title": "Gesture Capture",
+        "category": "Data"
+      },
+      "communicationschapter03.maxtut.xml": {
+        "name": "Max Comm Tutorial 3: UDP Networking",
+        "indexdigest": "Passing messages over a network",
+        "title": "UDP Networking",
+        "category": "Communications"
+      },
+      "basicchapter22.maxtut.xml": {
+        "name": "Max Basic Tutorial 22: Designing Equations",
+        "indexdigest": "Creating complex mathematical statements",
+        "title": "Designing Equations",
+        "category": "Basics"
+      },
+      "basicchapter14.maxtut.xml": {
+        "name": "Max Basic Tutorial 14: Encapsulation",
+        "indexdigest": "Patchers inside of patchers",
+        "title": "Encapsulation",
+        "category": "Basics"
+      },
+      "basicchapter02.maxtut.xml": {
+        "name": "Max Basic Tutorial 2: Bang!",
+        "indexdigest": "The bang message",
+        "title": "Bang!",
+        "category": "Basics"
+      },
+      "communicationschapter01.maxtut.xml": {
+        "name": "Max Comm Tutorial 1: Human-Interface Devices",
+        "indexdigest": "Working with game controllers",
+        "title": "Human-Interface Devices",
+        "category": "Communications"
+      },
+      "basicchapter19.maxtut.xml": {
+        "name": "Max Basic Tutorial 19: Timing",
+        "indexdigest": "Scheduling events",
+        "title": "Timing",
+        "category": "Basics"
+      },
+      "basicchapter17.maxtut.xml": {
+        "name": "Max Basic Tutorial 17: Data Structures And Probability",
+        "indexdigest": "Working with histograms and lookup tables",
+        "title": "Data Structures and Probability",
+        "category": "Basics"
+      },
+      "basicchapter06.maxtut.xml": {
+        "name": "Max Basic Tutorial 6: Simple Math in Max",
+        "indexdigest": "Performing calculations",
+        "title": "Simple Math",
+        "category": "Basics"
+      }
+    }
+  },
+  "vignettes": {
+    "thesaurus": {
+      "thesaurus.maxvig.xml": {
+        "name": "Object Thesaurus"
+      }
+    },
+    "core": {
+      "patcher_editing.maxvig.xml": {
+        "name": "Editing Text in a Patcher"
+      },
+      "opening_patches.maxvig.xml": {
+        "name": "Opening Patches"
+      },
+      "font_attributes.maxvig.xml": {
+        "name": "Font Attributes"
+      },
+      "advanced_max.maxvig.xml": {
+        "name": "Advanced Max Topics"
+      },
+      "error_messages.maxvig.xml": {
+        "name": "Error Messages"
+      },
+      "subpatchers.maxvig.xml": {
+        "name": "Subpatchers"
+      },
+      "quickref.maxvig.xml": {
+        "name": "Object Quickref"
+      },
+      "preferences_toolbar.maxvig.xml": {
+        "name": "The Preferences Toolbar"
+      },
+      "making_patches.maxvig.xml": {
+        "name": "Making Patches"
+      },
+      "collective_guide.maxvig.xml": {
+        "name": "About Collectives"
+      },
+      "files.maxvig.xml": {
+        "name": "File Browser and Search Path"
+      },
+      "font_rendering.maxvig.xml": {
+        "name": "Font Rendering"
+      },
+      "docrefpages.maxvig.xml": {
+        "name": "Object Reference Pages"
+      },
+      "subpatches_inlets.maxvig.xml": {
+        "name": "Subpatcher Inlets and Outlets"
+      },
+      "patcher_window.maxvig.xml": {
+        "name": "The Patcher Window"
+      },
+      "messages_to_jitter.maxvig.xml": {
+        "name": "Controlling Jitter with Messages"
+      },
+      "live_parameterswindow.maxvig.xml": {
+        "name": "The Parameters Window"
+      },
+      "assistance.maxvig.xml": {
+        "name": "Assistance"
+      },
+      "sharing.maxvig.xml": {
+        "name": "Sharing Patches With Others"
+      },
+      "inspector_opening.maxvig.xml": {
+        "name": "Opening the Inspector"
+      },
+      "docwindow.maxvig.xml": {
+        "name": "The Documentation Window"
+      },
+      "grid.maxvig.xml": {
+        "name": "Using the Patcher Edit Grid"
+      },
+      "signal_probe.maxvig.xml": {
+        "name": "Signal Probe"
+      },
+      "resizing_objects.maxvig.xml": {
+        "name": "Resizing and Scaling Objects"
+      },
+      "help_docs.maxvig.xml": {
+        "name": "How to Use the Documentation"
+      },
+      "projects_searchpath.maxvig.xml": {
+        "name": "Project Search Paths"
+      },
+      "live_pluggo.maxvig.xml": {
+        "name": "Max for Live for Pluggo Developers"
+      },
+      "docrefpages_opening.maxvig.xml": {
+        "name": "Accessing Object Reference Pages"
+      },
+      "environment.maxvig.xml": {
+        "name": "Customizing the Max Environment"
+      },
+      "aligning_patchcords.maxvig.xml": {
+        "name": "Align Patch Cords"
+      },
+      "maxtime_syntax.maxvig.xml": {
+        "name": "Time Value Syntax"
+      },
+      "information.maxvig.xml": {
+        "name": "Information"
+      },
+      "live_apiexamples.maxvig.xml": {
+        "name": "Live API Examples"
+      },
+      "text_entry.maxvig.xml": {
+        "name": "Text Entry"
+      },
+      "inplace_edits.maxvig.xml": {
+        "name": "In-place editing"
+      },
+      "documenting_patches.maxvig.xml": {
+        "name": "Documenting Your Own Patches"
+      },
+      "annotations.maxvig.xml": {
+        "name": "Annotations"
+      },
+      "live_audiobuildingblocks.maxvig.xml": {
+        "name": "Audio Effect Building Blocks"
+      },
+      "standalone_rewire.maxvig.xml": {
+        "name": "ReWire and Standalones"
+      },
+      "max_64_limitations.maxvig.xml": {
+        "name": "64-bit Issues and Limitations"
+      },
+      "live_pattr.maxvig.xml": {
+        "name": "Using pattr in Live Devices"
+      },
+      "compat_plugin.maxvig.xml": {
+        "name": "Plug-In Support in Max"
+      },
+      "encapsulating.maxvig.xml": {
+        "name": "Encapsulating and Reusing Your Work"
+      },
+      "midi_setup_window.maxvig.xml": {
+        "name": "MIDI Setup Window"
+      },
+      "menucommands.maxvig.xml": {
+        "name": "Max Menu Commands"
+      },
+      "max_functional.maxvig.xml": {
+        "name": "Max Object Functional Listing"
+      },
+      "color_picker.maxvig.xml": {
+        "name": "Color Picker"
+      },
+      "tracing_tools.maxvig.xml": {
+        "name": "Debug Window"
+      },
+      "messages_to_dsp.maxvig.xml": {
+        "name": "Controlling MSP with Messages"
+      },
+      "maxcolor.maxvig.xml": {
+        "name": "Specifying Colors"
+      },
+      "live_timing.maxvig.xml": {
+        "name": "Timing and Synchronization in Max for Live"
+      },
+      "live_symbols.maxvig.xml": {
+        "name": "Using Symbols in Max for Live"
+      },
+      "live_preview.maxvig.xml": {
+        "name": "Preview Mode"
+      },
+      "ui_defaults.maxvig.xml": {
+        "name": "Object Defaults"
+      },
+      "projects_settings.maxvig.xml": {
+        "name": "Project Settings"
+      },
+      "mixer_preferences.maxvig.xml": {
+        "name": "Mixer Settings"
+      },
+      "maxtime.maxvig.xml": {
+        "name": "Specifying Time Values"
+      },
+      "advanced_scheduler.maxvig.xml": {
+        "name": "Advanced Scheduler Settings"
+      },
+      "aligning_objects.maxvig.xml": {
+        "name": "Align Objects"
+      },
+      "audio_status.maxvig.xml": {
+        "name": "Audio Status Window"
+      },
+      "browser_preferences.maxvig.xml": {
+        "name": "File Browser Settings"
+      },
+      "standalone_object.maxvig.xml": {
+        "name": "Configuring Standalone Options"
+      },
+      "patcher_toolbar.maxvig.xml": {
+        "name": "The Patcher Window Toolbar"
+      },
+      "mixer.maxvig.xml": {
+        "name": "The Mixer Engine"
+      },
+      "live_resolveconflicts.maxvig.xml": {
+        "name": "Resolving Conflicts in Frozen Devices"
+      },
+      "compat_environment.maxvig.xml": {
+        "name": "Changes in the Max Environment"
+      },
+      "collectives.maxvig.xml": {
+        "name": "Collectives"
+      },
+      "live_abstractions.maxvig.xml": {
+        "name": "Live Abstractions"
+      },
+      "arranging_and_aligning.maxvig.xml": {
+        "name": "Arranging and aligning objects"
+      },
+      "attributes.maxvig.xml": {
+        "name": "Attributes"
+      },
+      "background.maxvig.xml": {
+        "name": "Foreground and Background Layers"
+      },
+      "compat_doc.maxvig.xml": {
+        "name": "Converting Older Max Documents"
+      },
+      "collective_editor.maxvig.xml": {
+        "name": "Collective Editor"
+      },
+      "live_exampledevices.maxvig.xml": {
+        "name": "Using and Editing Example Devices"
+      },
+      "clue_window.maxvig.xml": {
+        "name": "Clue Window"
+      },
+      "attributes_inspecting.maxvig.xml": {
+        "name": "Inspecting Attributes"
+      },
+      "watchpoints.maxvig.xml": {
+        "name": "Watchpoints"
+      },
+      "status_bar.maxvig.xml": {
+        "name": "Status Bar"
+      },
+      "object_explorer.maxvig.xml": {
+        "name": "Object Explorer"
+      },
+      "matrix_probe.maxvig.xml": {
+        "name": "Matrix Probe"
+      },
+      "live_unfreezing.maxvig.xml": {
+        "name": "Unfreezing Devices"
+      },
+      "clippings.maxvig.xml": {
+        "name": "Clippings"
+      },
+      "live_limitations.maxvig.xml": {
+        "name": "Limitations of Max for Live"
+      },
+      "font_system.maxvig.xml": {
+        "name": "System and Fallback Fonts"
+      },
+      "exporting_images.maxvig.xml": {
+        "name": "Printing a patch"
+      },
+      "standalone_building.maxvig.xml": {
+        "name": "Building Standalones"
+      },
+      "shortcuts.maxvig.xml": {
+        "name": "shortcuts"
+      },
+      "live_resources.maxvig.xml": {
+        "name": "Max for Live Tutorials and Examples"
+      },
+      "live_object_model.maxvig.xml": {
+        "name": "LOM - The Live Object Model"
+      },
+      "compat_platform.maxvig.xml": {
+        "name": "Platform-Specific Compatibility"
+      },
+      "live_api_overview.maxvig.xml": {
+        "name": "Live API Overview"
+      },
+      "configuring_hardware.maxvig.xml": {
+        "name": "Configuring Your Computer and Hardware"
+      },
+      "maxtime_objects.maxvig.xml": {
+        "name": "Objects that Support Time Values"
+      },
+      "live_presets.maxvig.xml": {
+        "name": "Presets"
+      },
+      "live_freezing.maxvig.xml": {
+        "name": "Freezing Max for Live Devices"
+      },
+      "live_creatingdevices.maxvig.xml": {
+        "name": "Creating Max for Live Devices"
+      },
+      "explorer_toolbar.maxvig.xml": {
+        "name": "The Object Explorer Toolbar"
+      },
+      "dragging_attributes.maxvig.xml": {
+        "name": "Dragging Attributes"
+      },
+      "hints.maxvig.xml": {
+        "name": "Hints"
+      },
+      "fonts.maxvig.xml": {
+        "name": "Fonts"
+      },
+      "interface_preferences.maxvig.xml": {
+        "name": "Interface Settings"
+      },
+      "text_patches.maxvig.xml": {
+        "name": "Patches in Text Format"
+      },
+      "patchcord_contextual_menu.maxvig.xml": {
+        "name": "The Patch Cord Menu"
+      },
+      "msp_alphabetical.maxvig.xml": {
+        "name": "MSP Object Alphabetical Listing"
+      },
+      "max_window.maxvig.xml": {
+        "name": "Max Window"
+      },
+      "live_userinterfaces.maxvig.xml": {
+        "name": "User Interfaces in Max for Live"
+      },
+      "live_midiexamples.maxvig.xml": {
+        "name": "MIDI Effect Tools"
+      },
+      "abstractions.maxvig.xml": {
+        "name": "Abstractions"
+      },
+      "filetypes.maxvig.xml": {
+        "name": "Filetypes Recognized in Max"
+      },
+      "keyboardcodes.maxvig.xml": {
+        "name": "Keyboard Codes"
+      },
+      "advanced_msp.maxvig.xml": {
+        "name": "Advanced MSP topics"
+      },
+      "find.maxvig.xml": {
+        "name": "Finding Objects in a Patcher"
+      },
+      "drag_and_drop.maxvig.xml": {
+        "name": "File Browser Drag and Drop"
+      },
+      "unicode.maxvig.xml": {
+        "name": "Unicode and Max"
+      },
+      "projects_openactions.maxvig.xml": {
+        "name": "Project Open Actions"
+      },
+      "projects_editingfiles.maxvig.xml": {
+        "name": "Editing Files in a Project"
+      },
+      "live_midibuildingblocks.maxvig.xml": {
+        "name": "MIDI Effect Building Blocks"
+      },
+      "subpatches_creating.maxvig.xml": {
+        "name": "Creating Subpatchers"
+      },
+      "standalone_platform_mac.maxvig.xml": {
+        "name": "Mac Standalone Applications"
+      },
+      "patcher_window_navigation.maxvig.xml": {
+        "name": "Navigating the Patcher window"
+      },
+      "metadata.maxvig.xml": {
+        "name": "Metadata"
+      },
+      "finding_jitter.maxvig.xml": {
+        "name": "Finding Objects in Jitter"
+      },
+      "attributes_stdbox.maxvig.xml": {
+        "name": "Common Box Attributes"
+      },
+      "inspector_kinds.maxvig.xml": {
+        "name": "Object Inspectors and Settings Editors"
+      },
+      "standalone_searchpath.maxvig.xml": {
+        "name": "Search Paths in Standalones"
+      },
+      "live_audiodevices.maxvig.xml": {
+        "name": "Creating Audio Effect Devices"
+      },
+      "editing_objects.maxvig.xml": {
+        "name": "Editing Objects"
+      },
+      "live_api.maxvig.xml": {
+        "name": "Creating Devices that use the Live API"
+      },
+      "assistance_authoring.maxvig.xml": {
+        "name": "Assistance for Inlets and Outlets"
+      },
+      "projects_searchpath2.maxvig.xml": {
+        "name": "Project Search Path Example"
+      },
+      "projects_devices.maxvig.xml": {
+        "name": "Max for Live Device Projects"
+      },
+      "projects_anatomy.maxvig.xml": {
+        "name": "Anatomy of the Project Window"
+      },
+      "patching_preferences.maxvig.xml": {
+        "name": "Patching Settings"
+      },
+      "debugging.maxvig.xml": {
+        "name": "Debugging"
+      },
+      "inspector.maxvig.xml": {
+        "name": "Inspector"
+      },
+      "live_dependencies.maxvig.xml": {
+        "name": "The Dependencies Window"
+      },
+      "font_menu.maxvig.xml": {
+        "name": "The Font Menu"
+      },
+      "file_browser.maxvig.xml": {
+        "name": "File Browser"
+      },
+      "unicode_conversion.maxvig.xml": {
+        "name": "Unicode Conversion"
+      },
+      "sidebar.maxvig.xml": {
+        "name": "Sidebar"
+      },
+      "projects_addingfiles.maxvig.xml": {
+        "name": "Adding and Removing Files to/from Projects"
+      },
+      "live_tutindex.maxvig.xml": {
+        "name": "Max for Live Tutorials"
+      },
+      "live_automation.maxvig.xml": {
+        "name": "Automation"
+      },
+      "dollar_sign_and_pound_sign.maxvig.xml": {
+        "name": "Arguments and Special Characters in Max"
+      },
+      "scheduler_settings.maxvig.xml": {
+        "name": "Scheduler Settings"
+      },
+      "rewire.maxvig.xml": {
+        "name": "Rewire"
+      },
+      "presentation_mode.maxvig.xml": {
+        "name": "Presentation Mode"
+      },
+      "advanced_jitter.maxvig.xml": {
+        "name": "Advanced Jitter topics"
+      },
+      "finding_msp.maxvig.xml": {
+        "name": "Finding Objects in MSP"
+      },
+      "live_audioexamples.maxvig.xml": {
+        "name": "Audio Effect Tools"
+      },
+      "viewing_files.maxvig.xml": {
+        "name": "Viewing Files"
+      },
+      "preferences_window.maxvig.xml": {
+        "name": "Preferences Window"
+      },
+      "patch_cords.maxvig.xml": {
+        "name": "Patch Cords"
+      },
+      "max_alphabetical.maxvig.xml": {
+        "name": "Max Object Alphabetical Listing"
+      },
+      "live_resources_abstractions.maxvig.xml": {
+        "name": "Max for Live Abstractions"
+      },
+      "data_monitoring_objects.maxvig.xml": {
+        "name": "Data Monitoring Objects"
+      },
+      "doctutorials.maxvig.xml": {
+        "name": "Tutorials"
+      },
+      "docrefpages_about.maxvig.xml": {
+        "name": "About Object Reference Pages"
+      },
+      "live_apiabstractions.maxvig.xml": {
+        "name": "Live API Abstractions"
+      },
+      "standalone_platform_win.maxvig.xml": {
+        "name": "Windows Standalone Applications"
+      },
+      "live_sharing.maxvig.xml": {
+        "name": "Sharing Max for Live Devices"
+      },
+      "live_resources_tutorials.maxvig.xml": {
+        "name": "Max for Live Tutorials"
+      },
+      "docsearch.maxvig.xml": {
+        "name": "Searching the Documentation"
+      },
+      "audio_filtering.maxvig.xml": {
+        "name": "Audio Filtering"
+      },
+      "live_alphabetical.maxvig.xml": {
+        "name": "Max for Live Object Alphabetical Listing"
+      },
+      "assistance_preferences.maxvig.xml": {
+        "name": "Assistance Settings"
+      },
+      "keycommands.maxvig.xml": {
+        "name": "Key Commands"
+      },
+      "prototypes.maxvig.xml": {
+        "name": "Prototypes"
+      },
+      "projects_creating.maxvig.xml": {
+        "name": "Creating a Project"
+      },
+      "object_ordering.maxvig.xml": {
+        "name": "Object Ordering"
+      },
+      "messages_to_max.maxvig.xml": {
+        "name": "Controlling Max with Messages"
+      },
+      "finding_max.maxvig.xml": {
+        "name": "Finding Objects in Max"
+      },
+      "live_advancedpresets.maxvig.xml": {
+        "name": "Live Presets and the Live Library"
+      },
+      "patcher_preferences.maxvig.xml": {
+        "name": "Patcher Preferences"
+      },
+      "parameter_enable.maxvig.xml": {
+        "name": "Parameter attributes in Max"
+      },
+      "msp_functional.maxvig.xml": {
+        "name": "MSP Object Functional Listing"
+      },
+      "max_and_other_apps.maxvig.xml": {
+        "name": "Using Max with Other Applications"
+      },
+      "distributing_objects.maxvig.xml": {
+        "name": "Distribute Objects"
+      },
+      "patcher_views.maxvig.xml": {
+        "name": "Multiple Views of a Patcher"
+      },
+      "live_midieffects.maxvig.xml": {
+        "name": "Creating MIDI Effects"
+      },
+      "font_default.maxvig.xml": {
+        "name": "Setting Default Fonts"
+      },
+      "jitter_functional.maxvig.xml": {
+        "name": "Jitter Object Functional Listing"
+      },
+      "clue_window_preferences.maxvig.xml": {
+        "name": "Clue Window Settings"
+      },
+      "file_browser_preview.maxvig.xml": {
+        "name": "Previewing Files"
+      },
+      "compat_objects.maxvig.xml": {
+        "name": "Compatibility: Object-Specific Changes"
+      },
+      "standalones.maxvig.xml": {
+        "name": "Standalones"
+      },
+      "projects.maxvig.xml": {
+        "name": "About Projects"
+      },
+      "live_resources_pluggo.maxvig.xml": {
+        "name": "Pluggo for Live Devices"
+      },
+      "compat_oldandnew.maxvig.xml": {
+        "name": "Old and New Versions of Max"
+      },
+      "file_preferences_window.maxvig.xml": {
+        "name": "File Preferences"
+      },
+      "jitter_alphabetical.maxvig.xml": {
+        "name": "Jitter Object Alphabetical Listing"
+      },
+      "sharing_patches.maxvig.xml": {
+        "name": "Sharing Patches"
+      },
+      "scheduler_preferences.maxvig.xml": {
+        "name": "Scheduler Preferences"
+      },
+      "queries.maxvig.xml": {
+        "name": "Queries"
+      },
+      "collective_build_scripts.maxvig.xml": {
+        "name": "Collective Build Scripts"
+      },
+      "font_preferences.maxvig.xml": {
+        "name": "Font Preferences"
+      },
+      "language_preferences.maxvig.xml": {
+        "name": "Language Settings"
+      },
+      "inspector_multiple.maxvig.xml": {
+        "name": "Inspecting Multiple Objects"
+      },
+      "templates.maxvig.xml": {
+        "name": "Templates"
+      },
+      "live_resources_exampledevices.maxvig.xml": {
+        "name": "Max For Live Example Devices"
+      },
+      "debugging_preferences.maxvig.xml": {
+        "name": "Debugging Settings"
+      },
+      "dls_synthesizer.maxvig.xml": {
+        "name": "The DLS Synthesizer"
+      },
+      "freezing_attributes.maxvig.xml": {
+        "name": "Freezing Attributes"
+      },
+      "live_files.maxvig.xml": {
+        "name": "Working with Files"
+      },
+      "extras_menu.maxvig.xml": {
+        "name": "Using the Extras Menu"
+      },
+      "projects_consolidate.maxvig.xml": {
+        "name": "The Manage Project Menu"
+      },
+      "patcher_creating.maxvig.xml": {
+        "name": "Creating Patchers"
+      },
+      "live_parameters.maxvig.xml": {
+        "name": "Device Parameters in Max for Live"
+      },
+      "encapsulate_deencapsulate.maxvig.xml": {
+        "name": "Encapsulate and De-encapsulate"
+      },
+      "circular_object_menu.maxvig.xml": {
+        "name": "Circular Object menu"
+      },
+      "attributes_intro.maxvig.xml": {
+        "name": "Introduction to Attributes"
+      },
+      "inspector_toolbar.maxvig.xml": {
+        "name": "The Inspector Toolbar"
+      },
+      "patcher_inspector.maxvig.xml": {
+        "name": "The Patcher Inspector"
+      },
+      "compatibility.maxvig.xml": {
+        "name": "Compatibility"
+      },
+      "font_panel.maxvig.xml": {
+        "name": "The Font Panel"
+      },
+      "live_instruments.maxvig.xml": {
+        "name": "Max for Live Instruments"
+      },
+      "search_path.maxvig.xml": {
+        "name": "Search Path"
+      },
+      "dictionaries.maxvig.xml": {
+        "name": "Dictionaries"
+      }
+    },
+    "licenses": {
+      "license-bullet.maxvig.xml": {
+        "name": "Bullet license",
+        "category": "Unlisted"
+      },
+      "license-gle.maxvig.xml": {
+        "name": "GLE license",
+        "category": "Unlisted"
+      },
+      "license-zlib.maxvig.xml": {
+        "name": "zlib license",
+        "category": "Unlisted"
+      },
+      "license-mozilla-javascript.maxvig.xml": {
+        "name": "Mozilla JavaScript license",
+        "category": "Unlisted"
+      },
+      "licenses.maxvig.xml": {
+        "name": "Library Licenses"
+      },
+      "license-eigen.maxvig.xml": {
+        "name": "Eigen license",
+        "category": "Unlisted"
+      },
+      "license-utf8proc.maxvig.xml": {
+        "name": "utf8proc license",
+        "category": "Unlisted"
+      },
+      "license-openexr.maxvig.xml": {
+        "name": "OpenEXR license",
+        "category": "Unlisted"
+      },
+      "license-assimp.maxvig.xml": {
+        "name": "Assimp license",
+        "category": "Unlisted"
+      },
+      "license-lua.maxvig.xml": {
+        "name": "Lua license",
+        "category": "Unlisted"
+      },
+      "license-llvm.maxvig.xml": {
+        "name": "LLVM license",
+        "category": "Unlisted"
+      }
+    },
+    "lua": {
+      "jit_gl_lua_vector_math.maxvig.xml": {
+        "name": "jit.gl.lua Vector Math",
+        "order": "1"
+      },
+      "jit_gl_lua_opengl_glu_bindings.maxvig.xml": {
+        "name": "jit.gl.lua OpenGL GLU Bindings",
+        "order": "1"
+      },
+      "jit_gl_lua_color_bindings.maxvig.xml": {
+        "name": "jit.gl.lua Color Bindings",
+        "order": "1"
+      },
+      "jit_gl_lua_opengl_bindings.maxvig.xml": {
+        "name": "jit.gl.lua OpenGL Bindings",
+        "order": "1"
+      },
+      "jit_gl_lua_overview.maxvig.xml": {
+        "name": "jit.gl.lua Overview",
+        "order": "1"
+      }
+    },
+    "js": {
+      "jsmaxobject.maxvig.xml": {
+        "name": "Basic Javascript programming: The Max Object"
+      },
+      "jsintro.maxvig.xml": {
+        "name": "Basic Javascript programming for the js and jsui objects"
+      },
+      "jsglobalobject.maxvig.xml": {
+        "name": "The Global Object"
+      },
+      "jsuiobject.maxvig.xml": {
+        "name": "The jsui Object"
+      },
+      "jsuiintro.maxvig.xml": {
+        "name": "jsui, Sketch and OpenGL"
+      },
+      "jsliveapi.maxvig.xml": {
+        "name": "The LiveAPI Object"
+      },
+      "jssketchobject.maxvig.xml": {
+        "name": "The Sketch Object"
+      },
+      "jsfileobject.maxvig.xml": {
+        "name": "The File Object"
+      },
+      "jsglobal.maxvig.xml": {
+        "name": "Basic Javascript programming: Global Methods"
+      },
+      "javascriptinmax.maxvig.xml": {
+        "name": "Javascript in Max"
+      },
+      "jsfolderobject.maxvig.xml": {
+        "name": "The Folder Object"
+      },
+      "jsimageobject.maxvig.xml": {
+        "name": "The Image Object"
+      },
+      "jsmgraphics.maxvig.xml": {
+        "name": "MGraphics Quick Start Guide"
+      },
+      "jsbasic.maxvig.xml": {
+        "name": "Basic Techniques"
+      },
+      "jswindobj.maxvig.xml": {
+        "name": "The Wind Object"
+      },
+      "jsthreading.maxvig.xml": {
+        "name": "Javascript and Threading"
+      },
+      "jstaskobject.maxvig.xml": {
+        "name": "The Task Object"
+      },
+      "jspatcherobject.maxvig.xml": {
+        "name": "The Patcher Object"
+      },
+      "jssqlite.maxvig.xml": {
+        "name": "SQLite Database Access"
+      },
+      "jsmaxobj.maxvig.xml": {
+        "name": "The Maxobj Object"
+      }
+    },
+    "intro": {
+      "docnew.maxvig.xml": {
+        "name": "What's New in Max 6"
+      },
+      "docintro.maxvig.xml": {
+        "name": "Max 6 Help and Documentation"
+      },
+      "doclive.maxvig.xml": {
+        "name": "Max for Live Documentation"
+      }
+    },
+    "gen": {
+      "gen_jitter_operators.maxvig.xml": {
+        "name": "Jitter Operators",
+        "order": "5"
+      },
+      "gen_common_operators.maxvig.xml": {
+        "name": "Gen Common Operators",
+        "order": "3"
+      },
+      "gen_genexpr.maxvig.xml": {
+        "name": "GenExpr",
+        "order": "2"
+      },
+      "gen~_operators.maxvig.xml": {
+        "name": "gen~ Operators",
+        "order": "4"
+      },
+      "gen_overview.maxvig.xml": {
+        "name": "Gen Overview",
+        "order": "1"
+      }
+    }
+  }
+}
